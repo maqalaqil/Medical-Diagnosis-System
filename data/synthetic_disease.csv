@@ -1,0 +1,1001 @@
+age,bmi,blood_pressure,cholesterol,glucose,gender,smoker,family_history,physical_activity,diet,disease,notes
+,20.9,122.0,199.0,,Male,No,No,Low,Average,0,sedentary lifestyle
+23.0,19.0,111.0,217.0,75.0,Female,No,No,Medium,Average,0,no significant issues noted
+42.0,20.4,120.0,203.0,151.0,Female,No,Yes,High,Poor,0,"family history present, poor diet, high glucose"
+77.0,25.9,142.0,157.0,133.0,Male,No,No,High,Average,0,high blood pressure
+65.0,27.3,145.0,161.0,112.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+34.0,22.8,,177.0,126.0,Female,No,No,,Average,0,no significant issues noted
+32.0,26.9,160.0,140.0,88.0,Male,No,No,High,Average,0,high blood pressure
+35.0,22.5,,182.0,84.0,Female,No,,High,Good,0,no significant issues noted
+37.0,27.0,160.0,140.0,108.0,Male,,Yes,Medium,Average,0,"family history present, high blood pressure"
+63.0,24.3,136.0,170.0,114.0,Male,Yes,No,Medium,Average,0,patient smokes
+51.0,31.5,128.0,220.0,123.0,Female,Yes,Yes,,Good,1,"patient smokes, family history present"
+53.0,19.0,120.0,186.0,110.0,Female,No,Yes,Medium,Average,0,family history present
+45.0,21.2,123.0,198.0,113.0,Female,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle"
+55.0,23.1,133.0,177.0,125.0,Female,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle"
+67.0,32.6,115.0,249.0,111.0,Female,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+48.0,30.8,134.0,207.0,107.0,Female,Yes,Yes,High,Good,1,"patient smokes, family history present"
+72.0,29.4,118.0,228.0,88.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, elevated cholesterol"
+55.0,31.6,124.0,229.0,112.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+80.0,28.2,138.0,173.0,87.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+71.0,27.5,145.0,,139.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, high blood pressure"
+24.0,31.7,147.0,189.0,145.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure, high glucose"
+67.0,31.1,150.0,164.0,158.0,Male,No,No,Medium,Good,1,"high blood pressure, high glucose"
+80.0,23.1,,162.0,105.0,,,No,Medium,Poor,0,poor diet
+65.0,31.2,118.0,237.0,153.0,Female,No,,Medium,Average,1,"elevated cholesterol, high glucose"
+62.0,21.2,130.0,174.0,98.0,Female,Yes,No,High,Average,0,patient smokes
+39.0,23.6,144.0,159.0,133.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+61.0,30.4,137.0,192.0,103.0,Male,No,Yes,High,Poor,1,"family history present, poor diet"
+80.0,28.0,,141.0,103.0,Female,No,No,,Poor,0,poor diet
+51.0,30.5,139.0,192.0,73.0,Female,No,Yes,High,Good,1,family history present
+78.0,35.0,145.0,192.0,106.0,Male,No,Yes,Medium,Average,1,"family history present, high blood pressure"
+49.0,27.8,160.0,140.0,123.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet, high blood pressure"
+20.0,19.0,119.0,205.0,,Male,No,,Medium,Poor,0,poor diet
+80.0,25.9,135.0,171.0,97.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+76.0,30.8,118.0,,105.0,Female,No,No,Low,Poor,1,"sedentary lifestyle, poor diet"
+41.0,24.2,144.0,161.0,101.0,Female,Yes,Yes,High,Average,0,"patient smokes, family history present, high blood pressure"
+76.0,22.8,134.0,164.0,70.0,Male,Yes,No,Medium,Good,0,patient smokes
+34.0,19.3,117.0,208.0,92.0,Female,No,No,Medium,Poor,0,poor diet
+80.0,26.4,114.0,213.0,124.0,Female,Yes,No,Medium,Average,1,patient smokes
+71.0,33.1,103.0,260.0,132.0,Male,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet, elevated cholesterol"
+73.0,,132.0,188.0,134.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+,21.8,122.0,199.0,135.0,Male,No,No,Medium,Good,0,no significant issues noted
+,25.8,147.0,156.0,,Female,No,,Medium,Average,0,high blood pressure
+24.0,19.1,120.0,205.0,98.0,Female,No,Yes,Medium,Good,0,family history present
+57.0,21.0,129.0,177.0,127.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+58.0,34.9,132.0,222.0,67.0,Male,Yes,No,Medium,Average,1,"patient smokes, elevated cholesterol"
+20.0,21.8,142.0,167.0,92.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+80.0,28.6,,242.0,67.0,Male,No,Yes,High,Average,1,"family history present, elevated cholesterol"
+80.0,31.4,114.0,240.0,127.0,Female,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+80.0,34.6,160.0,140.0,117.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure"
+58.0,30.5,139.0,,115.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+44.0,31.5,125.0,231.0,96.0,Female,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+61.0,27.1,145.0,161.0,104.0,Male,Yes,No,Medium,Average,0,"patient smokes, high blood pressure"
+,32.2,143.0,183.0,60.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+52.0,21.6,129.0,181.0,104.0,Male,,Yes,High,Average,0,family history present
+58.0,21.4,129.0,178.0,156.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle, high glucose"
+55.0,32.3,132.0,214.0,129.0,,Yes,No,Medium,Good,1,patient smokes
+45.0,24.3,141.0,167.0,101.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+71.0,25.6,140.0,164.0,102.0,Male,No,No,Low,Good,0,sedentary lifestyle
+,29.2,140.0,182.0,105.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+57.0,32.5,111.0,260.0,148.0,Female,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol, high glucose"
+71.0,31.0,114.0,245.0,118.0,Female,Yes,No,Medium,,1,"patient smokes, elevated cholesterol"
+49.0,22.4,128.0,188.0,103.0,Female,Yes,No,Medium,Average,0,patient smokes
+65.0,35.0,134.0,215.0,89.0,Male,No,No,Medium,Good,1,shows concerning symptoms
+50.0,29.1,133.0,201.0,120.0,Female,No,No,Medium,Poor,1,poor diet
+51.0,28.7,140.0,184.0,83.0,Male,No,No,Medium,Good,1,shows concerning symptoms
+52.0,32.4,122.0,238.0,80.0,Male,No,No,Medium,Good,1,elevated cholesterol
+63.0,22.9,134.0,,90.0,Female,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+,23.8,135.0,180.0,76.0,Male,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle"
+58.0,29.8,160.0,140.0,158.0,Male,No,No,Medium,Good,0,"high blood pressure, high glucose"
+72.0,32.4,153.0,158.0,90.0,Male,No,No,High,Average,1,high blood pressure
+20.0,22.7,160.0,140.0,120.0,Female,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+62.0,,105.0,260.0,82.0,Male,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+47.0,26.1,150.0,152.0,135.0,Male,No,No,Medium,Average,0,high blood pressure
+63.0,22.8,135.0,169.0,142.0,Male,No,No,High,Average,0,high glucose
+77.0,27.3,135.0,,92.0,Female,No,Yes,Medium,Average,1,family history present
+62.0,32.9,108.0,260.0,96.0,Male,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+73.0,30.3,119.0,228.0,,Male,No,No,Medium,Good,1,elevated cholesterol
+39.0,24.4,147.0,,73.0,Male,No,No,High,Average,0,high blood pressure
+20.0,19.0,112.0,,117.0,Female,No,No,Low,Average,0,sedentary lifestyle
+61.0,19.0,124.0,177.0,112.0,Female,No,No,High,Poor,0,poor diet
+53.0,26.9,141.0,174.0,107.0,Female,No,No,Low,Good,1,"sedentary lifestyle, high blood pressure"
+62.0,26.0,153.0,140.0,93.0,Male,No,Yes,High,Good,1,"family history present, high blood pressure"
+67.0,35.0,135.0,226.0,154.0,Male,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle, elevated cholesterol, high glucose"
+43.0,28.0,128.0,210.0,,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+61.0,29.9,138.0,187.0,135.0,Female,No,No,Low,Good,1,sedentary lifestyle
+20.0,19.0,108.0,222.0,101.0,Female,No,No,Medium,Good,0,elevated cholesterol
+20.0,19.0,,199.0,158.0,Male,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high glucose"
+53.0,30.9,130.0,213.0,108.0,Male,No,No,Low,Average,1,sedentary lifestyle
+74.0,26.8,143.0,159.0,137.0,Female,Yes,Yes,Medium,Good,0,"patient smokes, family history present, high blood pressure"
+52.0,31.6,126.0,226.0,152.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, elevated cholesterol, high glucose"
+74.0,32.1,114.0,248.0,102.0,Male,No,Yes,Medium,,1,"family history present, elevated cholesterol"
+68.0,25.7,140.0,165.0,,Female,No,Yes,High,Average,0,family history present
+20.0,21.3,137.0,175.0,112.0,Female,No,No,Medium,Good,0,no significant issues noted
+72.0,,157.0,140.0,107.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high blood pressure"
+29.0,23.6,148.0,153.0,123.0,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+43.0,25.5,150.0,152.0,101.0,Male,Yes,No,High,Good,0,"patient smokes, high blood pressure"
+57.0,32.3,123.0,232.0,105.0,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, elevated cholesterol"
+75.0,26.9,143.0,160.0,103.0,Female,No,Yes,Medium,Good,0,"family history present, high blood pressure"
+59.0,35.0,125.0,240.0,109.0,Female,No,No,High,Good,1,elevated cholesterol
+76.0,30.7,160.0,140.0,112.0,Male,No,Yes,High,Average,1,"family history present, high blood pressure"
+76.0,25.5,,158.0,71.0,Female,No,No,Medium,Average,0,no significant issues noted
+42.0,31.2,136.0,205.0,95.0,Male,No,Yes,Medium,Poor,1,"family history present, poor diet"
+70.0,35.0,138.0,211.0,113.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+65.0,28.2,139.0,178.0,120.0,Male,No,No,Medium,Poor,1,poor diet
+77.0,26.2,139.0,166.0,115.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+61.0,19.0,119.0,183.0,152.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet, high glucose"
+64.0,28.5,157.0,140.0,102.0,Female,No,No,Medium,,1,high blood pressure
+52.0,32.9,125.0,234.0,140.0,Female,Yes,Yes,Low,Poor,1,"patient smokes, family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+58.0,32.6,136.0,204.0,136.0,Male,No,No,Medium,Poor,1,poor diet
+68.0,29.8,,230.0,102.0,Female,No,,Medium,Poor,1,"poor diet, elevated cholesterol"
+60.0,,138.0,173.0,102.0,Male,No,Yes,High,Average,0,family history present
+20.0,21.2,147.0,156.0,90.0,Female,No,No,High,Average,0,high blood pressure
+20.0,19.0,107.0,227.0,107.0,Female,No,No,Medium,Average,0,elevated cholesterol
+48.0,23.1,133.0,179.0,82.0,Male,No,Yes,Medium,Good,0,family history present
+65.0,24.7,136.0,172.0,122.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle"
+80.0,28.8,120.0,215.0,93.0,Female,No,Yes,Medium,Average,1,family history present
+59.0,19.0,102.0,230.0,88.0,,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, elevated cholesterol"
+80.0,23.5,139.0,148.0,126.0,Male,No,No,High,Poor,0,poor diet
+51.0,25.3,143.0,163.0,90.0,Male,Yes,No,High,,0,"patient smokes, high blood pressure"
+59.0,25.4,138.0,173.0,98.0,Male,Yes,Yes,High,Good,0,"patient smokes, family history present"
+48.0,27.1,156.0,140.0,136.0,Male,No,Yes,High,Average,0,"family history present, high blood pressure"
+60.0,19.0,124.0,179.0,127.0,Female,No,No,High,Average,0,no significant issues noted
+54.0,29.4,,187.0,91.0,Female,No,No,Low,Average,1,sedentary lifestyle
+59.0,30.8,145.0,176.0,67.0,Male,No,Yes,High,Good,1,"family history present, high blood pressure"
+73.0,,,164.0,147.0,Female,No,Yes,Medium,,0,"family history present, high glucose"
+69.0,30.4,159.0,140.0,,Female,No,No,Medium,Average,1,high blood pressure
+38.0,23.3,137.0,175.0,84.0,Male,No,Yes,Medium,Good,0,family history present
+62.0,23.4,134.0,172.0,102.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+32.0,23.3,144.0,,113.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+67.0,21.5,130.0,173.0,92.0,Female,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+73.0,30.9,160.0,140.0,140.0,Female,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high blood pressure"
+80.0,23.9,140.0,150.0,151.0,Female,No,No,Medium,Good,0,high glucose
+44.0,27.4,160.0,140.0,,Male,Yes,No,High,Average,0,"patient smokes, high blood pressure"
+50.0,32.1,119.0,244.0,152.0,Female,No,No,Medium,Average,1,"elevated cholesterol, high glucose"
+50.0,30.5,127.0,219.0,124.0,Female,Yes,No,Medium,Average,1,patient smokes
+80.0,29.1,124.0,,130.0,,Yes,No,Medium,Poor,1,"patient smokes, poor diet"
+68.0,31.1,152.0,158.0,115.0,Female,No,No,,,1,high blood pressure
+49.0,24.6,139.0,171.0,130.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+61.0,,140.0,188.0,86.0,Male,No,Yes,High,Good,1,family history present
+56.0,31.2,141.0,188.0,,Male,No,No,Low,Average,1,"sedentary lifestyle, high blood pressure"
+20.0,28.5,,,111.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+,29.7,147.0,165.0,96.0,Male,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure"
+56.0,31.7,138.0,197.0,95.0,Male,Yes,No,Medium,Good,1,patient smokes
+,25.0,146.0,160.0,103.0,Male,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet, high blood pressure"
+56.0,28.7,143.0,174.0,104.0,Female,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+80.0,31.9,101.0,260.0,90.0,Female,No,No,High,Good,1,elevated cholesterol
+20.0,20.0,135.0,177.0,112.0,Male,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+44.0,20.4,,211.0,118.0,Male,No,No,Medium,Average,0,no significant issues noted
+27.0,19.0,120.0,201.0,147.0,Female,No,No,Medium,Poor,0,"poor diet, high glucose"
+52.0,20.0,111.0,218.0,133.0,Male,Yes,No,High,Good,0,patient smokes
+68.0,28.9,123.0,217.0,140.0,Female,No,Yes,High,Average,1,family history present
+75.0,23.3,135.0,164.0,95.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet"
+52.0,23.8,133.0,180.0,122.0,Female,No,Yes,High,Average,0,family history present
+53.0,26.2,147.0,,115.0,Male,Yes,Yes,Medium,Poor,0,"patient smokes, family history present, poor diet, high blood pressure"
+30.0,19.0,110.0,218.0,138.0,Male,No,No,Medium,Average,0,no significant issues noted
+33.0,19.0,109.0,220.0,125.0,Female,No,No,High,Poor,0,poor diet
+32.0,29.0,160.0,140.0,89.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet, high blood pressure"
+80.0,29.6,112.0,240.0,99.0,,Yes,No,Medium,Average,1,"patient smokes, elevated cholesterol"
+40.0,25.6,150.0,152.0,73.0,Female,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, high blood pressure"
+65.0,25.9,137.0,173.0,82.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+56.0,30.4,136.0,196.0,125.0,Female,Yes,Yes,High,Poor,1,"patient smokes, family history present, poor diet"
+64.0,,150.0,158.0,87.0,Female,No,No,Medium,Good,1,high blood pressure
+69.0,21.0,130.0,170.0,128.0,Male,Yes,No,Medium,Good,0,patient smokes
+20.0,19.0,123.0,197.0,74.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+57.0,23.8,137.0,169.0,91.0,Male,No,No,Medium,Poor,0,poor diet
+80.0,33.2,160.0,140.0,60.0,Female,No,No,High,Average,1,high blood pressure
+20.0,19.0,121.0,202.0,99.0,Male,No,No,High,Poor,0,poor diet
+57.0,30.8,134.0,202.0,96.0,Male,,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet"
+64.0,21.8,131.0,172.0,146.0,Male,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high glucose"
+53.0,28.4,136.0,190.0,75.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+51.0,32.2,114.0,256.0,112.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, elevated cholesterol"
+50.0,24.0,135.0,177.0,137.0,Male,No,No,Medium,Average,0,no significant issues noted
+,19.0,124.0,168.0,134.0,Female,No,No,Medium,Average,0,no significant issues noted
+75.0,33.8,100.0,260.0,148.0,Female,No,Yes,Medium,Average,1,"family history present, elevated cholesterol, high glucose"
+59.0,19.0,117.0,184.0,123.0,Female,No,,Medium,Good,0,no significant issues noted
+20.0,22.7,152.0,148.0,90.0,Male,No,No,Medium,Good,0,high blood pressure
+72.0,23.6,136.0,164.0,87.0,Female,No,No,Medium,Average,0,no significant issues noted
+72.0,28.4,160.0,140.0,106.0,Male,No,No,High,Average,1,high blood pressure
+50.0,24.9,,162.0,146.0,Female,Yes,No,Medium,Average,0,"patient smokes, high glucose"
+69.0,32.4,144.0,180.0,147.0,Female,No,No,Medium,Poor,1,"poor diet, high blood pressure, high glucose"
+41.0,27.6,160.0,140.0,160.0,Female,Yes,No,High,Average,0,"patient smokes, high blood pressure, high glucose"
+,31.0,152.0,156.0,72.0,,Yes,No,High,Poor,1,"patient smokes, poor diet, high blood pressure"
+35.0,24.7,149.0,153.0,130.0,Male,Yes,No,,,0,"patient smokes, high blood pressure"
+53.0,31.4,117.0,245.0,123.0,Female,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+33.0,22.5,136.0,,131.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+21.0,,146.0,156.0,140.0,,No,Yes,Medium,Poor,0,"family history present, poor diet, high blood pressure"
+48.0,22.6,132.0,181.0,133.0,Male,No,No,Low,Average,0,sedentary lifestyle
+53.0,27.8,153.0,149.0,71.0,Male,No,No,Medium,Good,1,high blood pressure
+50.0,28.9,160.0,140.0,,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+71.0,24.0,137.0,164.0,90.0,Male,No,Yes,Medium,Average,0,family history present
+51.0,27.5,128.0,,105.0,Female,Yes,No,High,,1,patient smokes
+54.0,27.6,144.0,168.0,82.0,Female,No,No,Medium,Average,1,high blood pressure
+37.0,27.9,160.0,140.0,,Female,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet, high blood pressure"
+59.0,27.8,143.0,169.0,,Male,No,No,High,Average,0,high blood pressure
+51.0,28.1,148.0,162.0,96.0,Female,No,No,High,Good,1,high blood pressure
+78.0,21.7,134.0,160.0,148.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high glucose"
+43.0,32.1,124.0,235.0,148.0,Male,No,Yes,High,Average,1,"family history present, elevated cholesterol, high glucose"
+73.0,29.4,125.0,212.0,141.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high glucose"
+80.0,22.6,136.0,156.0,137.0,Male,No,No,Medium,Poor,0,poor diet
+80.0,31.4,106.0,257.0,124.0,Female,Yes,No,High,Average,1,"patient smokes, elevated cholesterol"
+47.0,30.4,139.0,194.0,96.0,Male,Yes,No,Medium,Good,1,patient smokes
+56.0,20.9,127.0,181.0,103.0,Female,No,No,Medium,Poor,0,poor diet
+67.0,31.6,160.0,140.0,102.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+76.0,25.7,142.0,158.0,85.0,Female,No,No,High,Average,0,high blood pressure
+66.0,22.7,132.0,172.0,76.0,Male,Yes,No,Medium,Poor,0,"patient smokes, poor diet"
+52.0,19.6,125.0,183.0,104.0,Male,No,No,Medium,Poor,0,poor diet
+62.0,30.9,119.0,235.0,113.0,Female,No,Yes,High,Average,1,"family history present, elevated cholesterol"
+62.0,22.6,133.0,173.0,,Female,No,No,Low,Average,0,sedentary lifestyle
+66.0,28.8,136.0,187.0,,Male,No,No,Low,Average,1,sedentary lifestyle
+64.0,30.7,150.0,163.0,78.0,Female,No,Yes,Medium,Average,1,"family history present, high blood pressure"
+22.0,19.2,124.0,195.0,114.0,Male,No,No,High,Good,0,no significant issues noted
+59.0,28.7,147.0,162.0,132.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+75.0,26.7,143.0,159.0,84.0,Female,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+36.0,26.4,157.0,141.0,98.0,Male,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+20.0,20.3,131.0,185.0,,,No,Yes,High,Good,0,family history present
+80.0,28.3,147.0,,,Male,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle, high blood pressure"
+26.0,24.6,152.0,149.0,130.0,Male,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+68.0,19.4,127.0,173.0,81.0,Male,Yes,No,High,Good,0,patient smokes
+61.0,27.5,150.0,150.0,138.0,Male,,No,Low,Good,1,"sedentary lifestyle, high blood pressure"
+50.0,26.2,146.0,159.0,,,No,No,Medium,Average,0,high blood pressure
+71.0,30.6,120.0,229.0,120.0,Male,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+57.0,27.4,143.0,168.0,117.0,Male,No,Yes,High,Average,0,"family history present, high blood pressure"
+80.0,33.9,160.0,140.0,82.0,Female,,No,,Good,1,high blood pressure
+51.0,32.3,139.0,200.0,124.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+20.0,19.4,132.0,181.0,136.0,Female,Yes,,Low,Good,1,"patient smokes, sedentary lifestyle"
+48.0,19.2,124.0,186.0,136.0,Male,Yes,Yes,Medium,Good,0,"patient smokes, family history present"
+67.0,32.8,,260.0,160.0,Female,Yes,Yes,Medium,Good,1,"patient smokes, family history present, elevated cholesterol, high glucose"
+40.0,30.7,141.0,192.0,104.0,Female,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+39.0,27.3,160.0,140.0,110.0,Female,No,Yes,Medium,,0,"family history present, high blood pressure"
+68.0,26.9,160.0,140.0,89.0,Male,No,Yes,High,Good,1,"family history present, high blood pressure"
+67.0,28.2,136.0,184.0,109.0,Male,No,No,Low,Good,1,sedentary lifestyle
+55.0,28.1,134.0,192.0,82.0,Female,,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+63.0,34.6,143.0,194.0,98.0,Male,Yes,No,Medium,Average,1,"patient smokes, high blood pressure"
+46.0,19.6,110.0,220.0,105.0,Female,No,Yes,Medium,Average,0,family history present
+58.0,29.4,130.0,207.0,125.0,Male,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet"
+30.0,24.0,150.0,150.0,124.0,Female,No,No,Medium,Good,0,high blood pressure
+60.0,29.4,,170.0,133.0,,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle"
+,30.7,140.0,187.0,130.0,Male,No,Yes,Medium,Average,1,family history present
+26.0,21.1,134.0,179.0,112.0,Male,No,No,Medium,Good,0,no significant issues noted
+52.0,23.9,134.0,178.0,95.0,Female,No,No,Medium,Average,0,no significant issues noted
+50.0,31.0,130.0,214.0,,Male,Yes,Yes,Low,Poor,1,"patient smokes, family history present, sedentary lifestyle, poor diet"
+76.0,22.2,134.0,163.0,118.0,Female,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet"
+55.0,23.6,133.0,180.0,101.0,Male,,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+64.0,30.5,,171.0,130.0,Female,Yes,No,Medium,Average,1,patient smokes
+20.0,23.7,154.0,145.0,108.0,Female,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+,22.4,131.0,178.0,60.0,Male,No,No,Medium,Average,0,no significant issues noted
+52.0,27.4,157.0,140.0,60.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+30.0,27.1,160.0,140.0,72.0,Male,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+33.0,30.1,143.0,188.0,107.0,Female,No,No,Medium,Average,1,high blood pressure
+49.0,32.6,122.0,239.0,119.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+55.0,,,240.0,90.0,Male,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet, elevated cholesterol"
+75.0,35.0,138.0,213.0,113.0,Male,No,Yes,Medium,Average,1,family history present
+63.0,32.1,113.0,254.0,107.0,Male,Yes,No,High,Average,1,"patient smokes, elevated cholesterol"
+57.0,30.7,123.0,229.0,112.0,,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+75.0,30.9,156.0,145.0,125.0,Female,No,Yes,High,Average,1,"family history present, high blood pressure"
+24.0,31.1,142.0,197.0,97.0,Male,Yes,No,Medium,Average,1,"patient smokes, high blood pressure"
+34.0,22.5,138.0,170.0,93.0,Female,No,Yes,High,Average,0,family history present
+71.0,21.4,131.0,,103.0,Male,No,No,Medium,Average,0,no significant issues noted
+69.0,30.9,160.0,140.0,117.0,Male,Yes,No,Medium,Good,0,"patient smokes, high blood pressure"
+53.0,20.0,124.0,186.0,118.0,Female,No,No,Medium,Poor,0,poor diet
+47.0,30.8,,228.0,139.0,Female,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+20.0,19.1,134.0,177.0,112.0,,Yes,Yes,High,Average,0,"patient smokes, family history present"
+80.0,21.3,133.0,158.0,96.0,Male,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet"
+58.0,28.2,138.0,183.0,115.0,Female,Yes,Yes,Medium,Poor,1,"patient smokes, family history present, poor diet"
+68.0,21.6,131.0,169.0,77.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+69.0,23.3,135.0,,93.0,Female,Yes,Yes,High,Good,0,"patient smokes, family history present"
+71.0,29.0,160.0,140.0,108.0,Male,Yes,No,Medium,Average,1,"patient smokes, high blood pressure"
+62.0,28.5,160.0,140.0,83.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+20.0,19.0,100.0,257.0,125.0,Female,Yes,,High,Average,0,"patient smokes, elevated cholesterol"
+45.0,19.0,106.0,225.0,115.0,Female,No,No,High,Average,0,elevated cholesterol
+67.0,20.6,129.0,173.0,100.0,Male,,No,Low,Good,0,sedentary lifestyle
+72.0,22.6,134.0,167.0,128.0,Male,No,No,Medium,Good,0,no significant issues noted
+,31.0,141.0,187.0,160.0,Male,No,No,High,Average,1,"high blood pressure, high glucose"
+56.0,30.3,128.0,214.0,113.0,Female,No,No,,Good,1,shows concerning symptoms
+,21.9,128.0,186.0,119.0,Male,Yes,No,Medium,Good,0,patient smokes
+31.0,,160.0,140.0,160.0,Male,No,,Medium,Average,0,"high blood pressure, high glucose"
+64.0,24.9,138.0,167.0,126.0,Male,No,,Medium,Average,0,no significant issues noted
+79.0,21.3,132.0,164.0,140.0,Female,Yes,No,,Poor,0,"patient smokes, poor diet"
+45.0,19.0,116.0,194.0,89.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+69.0,30.6,112.0,248.0,108.0,Male,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+80.0,21.1,132.0,161.0,133.0,Male,Yes,,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet"
+45.0,33.3,120.0,248.0,124.0,Male,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+48.0,26.7,140.0,176.0,127.0,Female,No,Yes,Medium,Good,0,family history present
+80.0,35.0,146.0,190.0,87.0,Male,No,Yes,Medium,,1,"family history present, high blood pressure"
+51.0,26.8,142.0,171.0,90.0,Male,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+69.0,33.2,147.0,176.0,115.0,Female,No,,Medium,Good,1,high blood pressure
+80.0,23.1,138.0,150.0,111.0,Male,No,Yes,Medium,Good,0,family history present
+60.0,31.7,124.0,229.0,104.0,Female,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+57.0,24.2,136.0,173.0,102.0,Female,,No,High,Average,0,no significant issues noted
+50.0,29.3,133.0,203.0,88.0,Male,No,Yes,Medium,Average,1,family history present
+53.0,29.2,160.0,140.0,139.0,Female,Yes,No,High,Poor,0,"patient smokes, poor diet, high blood pressure"
+,29.1,127.0,205.0,114.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+20.0,19.0,117.0,205.0,97.0,,No,Yes,Medium,Poor,0,"family history present, poor diet"
+45.0,28.2,118.0,233.0,92.0,,Yes,No,,Poor,1,"patient smokes, poor diet, elevated cholesterol"
+80.0,23.7,137.0,160.0,104.0,Female,Yes,No,High,Average,0,patient smokes
+73.0,25.5,142.0,158.0,136.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+68.0,29.3,142.0,175.0,111.0,,Yes,No,Medium,,1,"patient smokes, high blood pressure"
+21.0,19.0,100.0,243.0,143.0,Male,Yes,Yes,,Good,0,"patient smokes, family history present, elevated cholesterol, high glucose"
+53.0,19.0,102.0,232.0,111.0,Male,No,No,Medium,Average,0,elevated cholesterol
+63.0,24.8,137.0,170.0,90.0,Male,No,No,Medium,Average,0,no significant issues noted
+55.0,27.4,148.0,157.0,118.0,,No,No,High,Poor,1,"poor diet, high blood pressure"
+68.0,24.1,137.0,166.0,143.0,Female,No,No,Medium,Poor,0,"poor diet, high glucose"
+,31.7,142.0,185.0,101.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+54.0,27.8,139.0,180.0,142.0,Female,No,No,Medium,Poor,1,"poor diet, high glucose"
+70.0,27.1,144.0,161.0,132.0,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+80.0,29.1,118.0,222.0,94.0,Male,Yes,No,Low,,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+56.0,30.8,138.0,193.0,,Male,No,Yes,Medium,,1,family history present
+58.0,24.7,136.0,174.0,91.0,Female,Yes,No,Medium,Average,0,patient smokes
+53.0,19.0,119.0,188.0,98.0,Male,No,No,Low,Good,0,sedentary lifestyle
+62.0,33.9,135.0,,113.0,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+79.0,30.9,160.0,140.0,121.0,Female,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+67.0,26.3,147.0,151.0,117.0,Female,Yes,No,High,Poor,1,"patient smokes, poor diet, high blood pressure"
+37.0,23.3,139.0,170.0,111.0,Male,No,No,,Average,0,no significant issues noted
+68.0,30.3,112.0,248.0,120.0,Male,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+75.0,29.0,130.0,197.0,108.0,Male,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle"
+,30.0,104.0,254.0,104.0,Female,No,No,Medium,Average,1,elevated cholesterol
+57.0,31.0,138.0,193.0,135.0,,No,No,Low,Average,1,sedentary lifestyle
+76.0,25.9,142.0,159.0,112.0,,No,No,Medium,Average,0,high blood pressure
+48.0,24.9,141.0,167.0,99.0,Female,No,,Medium,Average,0,high blood pressure
+20.0,19.7,133.0,178.0,141.0,Female,Yes,No,High,Good,0,"patient smokes, high glucose"
+46.0,21.6,129.0,184.0,105.0,Male,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle"
+50.0,28.5,143.0,174.0,88.0,Male,No,No,Medium,Average,0,high blood pressure
+63.0,31.1,147.0,170.0,124.0,Female,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle, high blood pressure"
+62.0,28.5,,170.0,145.0,Female,No,No,High,Poor,1,"poor diet, high glucose"
+55.0,25.9,144.0,162.0,103.0,Female,No,No,High,Average,0,high blood pressure
+74.0,27.2,144.0,158.0,81.0,,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high blood pressure"
+48.0,22.8,,173.0,151.0,Male,No,No,Medium,Average,0,high glucose
+62.0,27.4,147.0,158.0,84.0,Male,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+20.0,35.0,130.0,243.0,82.0,Male,No,No,High,Good,1,elevated cholesterol
+51.0,20.6,128.0,181.0,80.0,Female,Yes,No,Medium,,0,patient smokes
+58.0,27.1,152.0,147.0,150.0,Female,No,No,Low,Average,1,"sedentary lifestyle, high blood pressure, high glucose"
+42.0,23.6,134.0,181.0,111.0,Male,,No,Medium,,0,no significant issues noted
+74.0,22.6,135.0,162.0,140.0,Male,No,No,,Average,0,no significant issues noted
+42.0,21.6,127.0,191.0,114.0,Female,No,Yes,High,Average,0,family history present
+20.0,19.0,123.0,199.0,140.0,Male,No,Yes,Medium,Average,0,family history present
+80.0,32.0,102.0,260.0,139.0,,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+31.0,22.7,138.0,171.0,119.0,Female,No,Yes,Medium,Average,0,family history present
+,19.3,131.0,184.0,96.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+72.0,31.8,117.0,239.0,92.0,Male,No,No,Medium,Good,1,elevated cholesterol
+80.0,24.7,140.0,157.0,127.0,Female,No,,Low,Average,0,sedentary lifestyle
+63.0,21.9,131.0,173.0,116.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+63.0,27.7,145.0,164.0,93.0,Male,No,No,Medium,Average,0,high blood pressure
+31.0,22.5,143.0,161.0,149.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure, high glucose"
+39.0,23.8,141.0,167.0,154.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure, high glucose"
+57.0,33.6,110.0,260.0,103.0,Female,Yes,Yes,Low,Good,1,"patient smokes, family history present, sedentary lifestyle, elevated cholesterol"
+80.0,27.8,123.0,204.0,143.0,Male,No,No,Medium,Average,1,high glucose
+70.0,29.3,160.0,140.0,138.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+80.0,31.9,117.0,237.0,106.0,Female,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol"
+72.0,29.6,158.0,140.0,101.0,Male,Yes,No,,Poor,1,"patient smokes, poor diet, high blood pressure"
+52.0,22.4,132.0,178.0,87.0,,No,No,Medium,Average,0,no significant issues noted
+66.0,28.9,128.0,206.0,156.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high glucose"
+31.0,20.6,129.0,185.0,97.0,Male,Yes,No,Medium,Average,0,patient smokes
+72.0,,147.0,175.0,85.0,Male,No,No,High,Average,1,high blood pressure
+47.0,31.2,130.0,216.0,149.0,Male,No,No,Medium,Average,1,high glucose
+53.0,,127.0,188.0,154.0,Female,Yes,No,Medium,Average,0,"patient smokes, high glucose"
+60.0,25.2,151.0,141.0,126.0,Female,No,No,High,Poor,1,"poor diet, high blood pressure"
+48.0,32.8,122.0,241.0,120.0,Male,No,Yes,,Good,1,"family history present, elevated cholesterol"
+68.0,31.0,123.0,226.0,83.0,Female,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+,22.8,138.0,173.0,142.0,Male,No,Yes,Medium,Average,0,"family history present, high glucose"
+55.0,30.3,139.0,189.0,123.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet"
+57.0,26.4,151.0,147.0,103.0,Female,No,No,Medium,Average,1,high blood pressure
+49.0,,152.0,,111.0,Female,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+52.0,32.0,131.0,215.0,75.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+30.0,21.6,135.0,175.0,98.0,Female,No,No,Low,Average,0,sedentary lifestyle
+56.0,19.0,118.0,184.0,121.0,Male,Yes,No,Medium,Good,0,patient smokes
+51.0,19.6,125.0,184.0,142.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high glucose"
+64.0,28.0,153.0,,140.0,,,No,Medium,Average,1,high blood pressure
+36.0,22.3,,190.0,115.0,Male,No,Yes,Medium,Average,0,family history present
+56.0,23.6,134.0,175.0,102.0,Male,Yes,No,High,Average,1,patient smokes
+54.0,25.7,146.0,156.0,135.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+49.0,26.1,151.0,,88.0,,No,,Medium,Average,0,high blood pressure
+54.0,19.0,120.0,,136.0,Female,Yes,No,Medium,Poor,0,"patient smokes, poor diet"
+65.0,34.3,103.0,260.0,,Male,No,No,,Poor,1,"poor diet, elevated cholesterol"
+62.0,30.5,130.0,210.0,102.0,Male,No,,Low,Poor,1,"sedentary lifestyle, poor diet"
+65.0,32.1,158.0,149.0,,Female,No,No,Low,Good,1,"sedentary lifestyle, high blood pressure"
+75.0,22.9,134.0,166.0,147.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high glucose"
+36.0,31.2,,225.0,101.0,Female,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+28.0,23.8,145.0,161.0,110.0,Female,No,,Medium,Good,0,high blood pressure
+61.0,30.9,126.0,219.0,89.0,Male,No,,Medium,Poor,1,poor diet
+62.0,29.4,148.0,162.0,128.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+20.0,20.0,143.0,162.0,60.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+57.0,35.0,105.0,,111.0,Female,No,No,Low,Good,1,sedentary lifestyle
+20.0,22.7,149.0,152.0,71.0,Female,No,No,Medium,Average,0,high blood pressure
+36.0,30.5,142.0,191.0,,Male,No,No,Medium,Average,1,high blood pressure
+65.0,35.0,140.0,206.0,113.0,Male,Yes,Yes,Medium,Good,1,"patient smokes, family history present"
+80.0,,155.0,146.0,77.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+27.0,24.3,151.0,150.0,,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, high blood pressure"
+80.0,35.0,159.0,157.0,80.0,Female,Yes,Yes,High,Good,1,"patient smokes, family history present, high blood pressure"
+20.0,25.0,160.0,140.0,75.0,,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle, high blood pressure"
+78.0,22.2,134.0,162.0,,Male,No,,Low,Average,0,sedentary lifestyle
+76.0,28.1,146.0,158.0,135.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+71.0,25.1,140.0,162.0,112.0,Male,No,No,High,Average,0,no significant issues noted
+58.0,22.3,132.0,175.0,115.0,,Yes,No,Medium,Average,0,patient smokes
+47.0,26.9,135.0,189.0,90.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present"
+53.0,,150.0,149.0,119.0,Female,No,,High,Good,0,high blood pressure
+50.0,33.6,121.0,246.0,105.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, elevated cholesterol"
+20.0,19.0,126.0,192.0,92.0,Male,Yes,No,High,Average,0,patient smokes
+76.0,24.1,,162.0,112.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+74.0,21.7,133.0,165.0,106.0,Male,,Yes,Medium,Poor,0,"family history present, poor diet"
+80.0,20.3,131.0,159.0,106.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet"
+73.0,24.2,137.0,165.0,95.0,Female,No,No,Medium,Poor,0,poor diet
+63.0,,131.0,218.0,123.0,Female,Yes,Yes,High,Good,1,"patient smokes, family history present"
+49.0,28.0,144.0,173.0,82.0,Male,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+80.0,26.1,142.0,156.0,65.0,Female,No,Yes,High,Average,0,"family history present, high blood pressure"
+49.0,19.0,124.0,184.0,109.0,Male,No,No,Medium,Average,0,no significant issues noted
+73.0,24.7,139.0,162.0,119.0,Female,No,No,Medium,Average,0,no significant issues noted
+25.0,22.1,139.0,171.0,110.0,Male,No,No,High,Good,0,no significant issues noted
+74.0,23.7,136.0,164.0,102.0,Male,,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+80.0,33.8,160.0,143.0,116.0,Female,Yes,No,High,Average,1,"patient smokes, high blood pressure"
+20.0,20.9,148.0,154.0,131.0,Male,Yes,No,,Good,0,"patient smokes, high blood pressure"
+80.0,28.8,110.0,237.0,115.0,Male,No,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+80.0,29.4,116.0,229.0,137.0,Male,No,Yes,Low,,1,"family history present, sedentary lifestyle, elevated cholesterol"
+64.0,29.4,133.0,197.0,79.0,Male,No,No,Medium,Good,1,shows concerning symptoms
+59.0,27.4,142.0,169.0,104.0,Male,No,No,Medium,Average,1,high blood pressure
+50.0,35.0,114.0,260.0,148.0,Male,No,Yes,Medium,Average,1,"family history present, elevated cholesterol, high glucose"
+64.0,28.5,152.0,149.0,95.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+80.0,31.1,160.0,140.0,142.0,Female,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle, high blood pressure, high glucose"
+67.0,32.7,140.0,191.0,97.0,Male,Yes,No,High,Average,1,patient smokes
+33.0,26.3,160.0,140.0,64.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+54.0,19.0,121.0,182.0,64.0,Female,,No,Medium,Average,0,no significant issues noted
+20.0,20.0,134.0,179.0,109.0,Female,Yes,No,High,Poor,0,"patient smokes, poor diet"
+75.0,,108.0,255.0,84.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, elevated cholesterol"
+65.0,31.2,122.0,229.0,,Female,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol"
+54.0,35.0,111.0,260.0,113.0,,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+23.0,19.0,103.0,232.0,95.0,Male,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+59.0,29.5,135.0,194.0,90.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present"
+68.0,28.5,150.0,152.0,60.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+41.0,32.9,122.0,243.0,102.0,,No,No,Medium,Good,1,elevated cholesterol
+74.0,28.6,122.0,,135.0,Male,No,Yes,Medium,Poor,1,"family history present, poor diet"
+72.0,,118.0,228.0,107.0,Female,No,No,Medium,Good,1,elevated cholesterol
+47.0,21.5,120.0,203.0,95.0,Male,Yes,No,Medium,Average,0,patient smokes
+71.0,22.8,134.0,167.0,114.0,Female,No,No,Low,Average,0,sedentary lifestyle
+63.0,27.1,148.0,154.0,94.0,Female,No,No,Medium,Average,0,high blood pressure
+52.0,19.6,126.0,181.0,160.0,Male,No,No,High,Poor,0,"poor diet, high glucose"
+20.0,19.0,122.0,199.0,111.0,Male,No,No,Medium,Average,0,no significant issues noted
+64.0,31.2,147.0,170.0,150.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure, high glucose"
+54.0,25.7,146.0,158.0,92.0,Female,No,No,Medium,Average,0,high blood pressure
+55.0,28.7,146.0,167.0,,Female,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle, high blood pressure"
+69.0,27.3,156.0,140.0,122.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+20.0,19.0,121.0,200.0,92.0,Male,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet"
+54.0,33.4,118.0,250.0,85.0,Female,Yes,Yes,High,Poor,1,"patient smokes, family history present, poor diet, elevated cholesterol"
+80.0,22.0,136.0,146.0,108.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+56.0,32.2,124.0,231.0,80.0,Male,Yes,No,High,Poor,1,"patient smokes, poor diet, elevated cholesterol"
+80.0,19.2,128.0,163.0,115.0,Male,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+52.0,,125.0,230.0,91.0,Female,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+63.0,23.9,128.0,187.0,83.0,,Yes,No,Medium,Good,0,patient smokes
+80.0,32.7,160.0,140.0,103.0,Male,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure"
+61.0,22.9,133.0,173.0,114.0,Female,No,No,Medium,,0,no significant issues noted
+43.0,19.9,118.0,205.0,139.0,Female,No,Yes,High,Good,0,family history present
+54.0,31.1,137.0,198.0,139.0,Male,No,No,High,Average,1,shows concerning symptoms
+31.0,33.5,122.0,250.0,126.0,,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol"
+27.0,20.7,131.0,182.0,130.0,Female,Yes,Yes,Medium,Good,0,"patient smokes, family history present"
+71.0,33.9,151.0,170.0,136.0,Male,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, high blood pressure"
+68.0,,102.0,260.0,69.0,Male,Yes,No,High,Average,1,"patient smokes, elevated cholesterol"
+63.0,22.7,134.0,171.0,160.0,Female,No,No,Medium,Poor,0,"poor diet, high glucose"
+56.0,19.0,122.0,183.0,149.0,Female,No,No,Medium,Average,0,high glucose
+72.0,31.8,147.0,170.0,146.0,Male,No,No,Low,Good,1,"sedentary lifestyle, high blood pressure, high glucose"
+46.0,31.2,143.0,188.0,96.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+70.0,32.2,155.0,153.0,,Female,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high blood pressure"
+80.0,25.9,143.0,152.0,74.0,Male,No,No,High,Average,0,high blood pressure
+50.0,,133.0,208.0,85.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+57.0,33.7,120.0,245.0,104.0,Male,No,No,High,Poor,1,"poor diet, elevated cholesterol"
+20.0,21.2,135.0,179.0,116.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle"
+46.0,30.9,160.0,140.0,121.0,Male,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high blood pressure"
+75.0,31.8,112.0,251.0,68.0,,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol"
+,28.8,118.0,220.0,125.0,,No,Yes,Medium,Poor,1,"family history present, poor diet"
+62.0,30.1,118.0,234.0,96.0,Male,No,No,Medium,Average,1,elevated cholesterol
+62.0,19.8,108.0,220.0,133.0,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet"
+,31.4,160.0,140.0,116.0,Male,No,No,Medium,Average,0,high blood pressure
+39.0,24.4,143.0,,135.0,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+74.0,29.0,149.0,155.0,60.0,Female,Yes,Yes,Medium,Good,0,"patient smokes, family history present, high blood pressure"
+54.0,,135.0,174.0,137.0,Female,Yes,No,Medium,Poor,0,"patient smokes, poor diet"
+47.0,32.0,126.0,229.0,96.0,Male,Yes,No,Low,,0,"patient smokes, sedentary lifestyle, elevated cholesterol"
+64.0,30.8,149.0,,60.0,Male,No,Yes,High,Poor,1,"family history present, poor diet, high blood pressure"
+74.0,31.8,155.0,151.0,112.0,Female,No,Yes,,Poor,0,"family history present, poor diet, high blood pressure"
+52.0,29.0,,204.0,98.0,Female,No,Yes,High,Poor,1,"family history present, poor diet"
+26.0,22.1,136.0,176.0,,Female,No,No,Medium,Poor,0,poor diet
+80.0,26.6,145.0,150.0,107.0,Male,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+41.0,21.0,124.0,196.0,110.0,Female,No,No,Medium,Average,0,no significant issues noted
+50.0,19.0,122.0,186.0,99.0,Male,Yes,Yes,High,Average,0,"patient smokes, family history present"
+80.0,22.3,135.0,154.0,117.0,Male,No,No,Medium,Poor,0,poor diet
+47.0,20.7,121.0,198.0,89.0,,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+20.0,21.2,147.0,153.0,73.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+54.0,19.0,100.0,246.0,131.0,Female,No,Yes,Medium,Poor,0,"family history present, poor diet, elevated cholesterol"
+40.0,22.1,132.0,182.0,104.0,Male,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle"
+42.0,33.6,130.0,227.0,131.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+55.0,,160.0,140.0,155.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet, high blood pressure, high glucose"
+50.0,33.0,127.0,230.0,70.0,Female,Yes,No,,Average,1,"patient smokes, elevated cholesterol"
+66.0,27.1,,168.0,,Female,No,No,Low,Good,1,sedentary lifestyle
+74.0,27.8,126.0,203.0,143.0,Female,No,Yes,Medium,Good,1,"family history present, high glucose"
+,27.3,144.0,158.0,151.0,Female,No,Yes,Medium,Good,0,"family history present, high blood pressure, high glucose"
+61.0,32.4,119.0,242.0,106.0,Female,No,No,High,,1,elevated cholesterol
+61.0,31.1,151.0,161.0,144.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure, high glucose"
+20.0,20.9,135.0,178.0,120.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+80.0,29.9,103.0,257.0,91.0,Male,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+73.0,35.0,143.0,191.0,99.0,Male,No,No,Medium,Poor,1,"poor diet, high blood pressure"
+62.0,21.4,130.0,175.0,153.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet, high glucose"
+46.0,27.1,160.0,140.0,155.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle, high blood pressure, high glucose"
+56.0,24.6,135.0,177.0,90.0,Female,No,No,High,Average,0,no significant issues noted
+80.0,29.5,112.0,237.0,102.0,Male,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet, elevated cholesterol"
+56.0,30.0,160.0,140.0,122.0,Male,Yes,No,High,Average,0,"patient smokes, high blood pressure"
+59.0,20.3,128.0,177.0,153.0,Female,,No,Medium,Average,0,high glucose
+30.0,23.8,145.0,161.0,102.0,Female,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle, high blood pressure"
+74.0,34.3,156.0,,,,Yes,No,Medium,Poor,1,"patient smokes, poor diet, high blood pressure"
+,21.5,126.0,192.0,,Male,No,Yes,Low,,0,"family history present, sedentary lifestyle"
+58.0,26.5,144.0,163.0,102.0,Male,No,No,Medium,Poor,1,"poor diet, high blood pressure"
+20.0,21.5,148.0,157.0,68.0,Female,No,No,Medium,Average,0,high blood pressure
+80.0,28.4,148.0,151.0,96.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+64.0,26.6,,166.0,128.0,Male,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+80.0,28.0,111.0,228.0,,Male,No,No,Medium,Average,1,elevated cholesterol
+50.0,31.4,135.0,204.0,101.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+74.0,29.8,160.0,140.0,105.0,Female,No,Yes,High,Poor,1,"family history present, poor diet, high blood pressure"
+36.0,,,196.0,123.0,,No,Yes,Medium,Good,0,family history present
+50.0,33.7,116.0,258.0,122.0,Female,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+59.0,27.7,145.0,,88.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+46.0,25.4,137.0,179.0,139.0,Male,Yes,No,Medium,Average,0,patient smokes
+54.0,24.4,133.0,181.0,88.0,Female,No,Yes,High,Average,0,family history present
+66.0,28.4,,140.0,96.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+58.0,19.0,,183.0,104.0,Male,Yes,No,Medium,Poor,0,"patient smokes, poor diet"
+75.0,30.0,124.0,216.0,151.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high glucose"
+80.0,28.4,118.0,219.0,106.0,Male,No,No,Medium,Poor,1,poor diet
+79.0,32.0,107.0,260.0,79.0,Male,No,Yes,Medium,Poor,1,"family history present, poor diet, elevated cholesterol"
+40.0,20.7,121.0,202.0,145.0,Male,No,Yes,Medium,Average,0,"family history present, high glucose"
+61.0,19.9,126.0,178.0,102.0,Female,No,,Medium,Good,0,no significant issues noted
+68.0,25.7,140.0,165.0,96.0,Male,No,No,Medium,Good,0,no significant issues noted
+79.0,26.5,144.0,156.0,108.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, high blood pressure"
+56.0,24.1,137.0,172.0,69.0,Female,,No,Low,Average,0,sedentary lifestyle
+77.0,31.0,115.0,239.0,143.0,Male,No,Yes,High,Average,1,"family history present, elevated cholesterol, high glucose"
+55.0,32.5,140.0,195.0,,Female,No,No,Medium,Average,1,shows concerning symptoms
+,28.7,150.0,147.0,115.0,Female,No,No,Medium,Good,0,high blood pressure
+,31.7,,230.0,114.0,Female,No,Yes,,Average,1,"family history present, elevated cholesterol"
+60.0,23.7,129.0,186.0,143.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high glucose"
+,30.0,155.0,149.0,123.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+26.0,,140.0,167.0,100.0,Male,No,No,Low,Average,1,sedentary lifestyle
+54.0,29.0,158.0,,87.0,Female,No,Yes,,Poor,0,"family history present, poor diet, high blood pressure"
+51.0,29.0,160.0,140.0,115.0,Male,No,No,Medium,Average,0,high blood pressure
+70.0,29.2,148.0,158.0,105.0,Male,No,No,Medium,Average,0,high blood pressure
+75.0,35.0,153.0,166.0,131.0,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+58.0,22.9,121.0,202.0,117.0,Female,No,No,Low,Average,0,sedentary lifestyle
+73.0,27.0,160.0,140.0,,Male,Yes,No,Medium,Good,1,"patient smokes, high blood pressure"
+71.0,26.1,141.0,164.0,123.0,,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high blood pressure"
+45.0,,150.0,152.0,140.0,Male,No,No,High,Good,0,high blood pressure
+20.0,19.0,109.0,221.0,149.0,Male,No,No,Medium,Poor,0,"poor diet, elevated cholesterol, high glucose"
+71.0,26.9,137.0,175.0,135.0,Male,No,No,Medium,Good,0,no significant issues noted
+75.0,30.6,119.0,229.0,126.0,Female,Yes,No,Medium,Average,1,"patient smokes, elevated cholesterol"
+70.0,23.0,134.0,168.0,119.0,Male,No,Yes,High,Average,0,family history present
+28.0,21.0,130.0,186.0,129.0,Male,Yes,No,Medium,Poor,0,"patient smokes, poor diet"
+80.0,27.0,122.0,206.0,107.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+55.0,28.9,136.0,191.0,118.0,Female,No,Yes,High,Average,1,family history present
+60.0,21.1,128.0,179.0,75.0,Female,Yes,Yes,Low,,0,"patient smokes, family history present, sedentary lifestyle"
+58.0,29.1,142.0,178.0,115.0,,No,No,High,Good,1,high blood pressure
+43.0,21.4,128.0,186.0,79.0,,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+31.0,31.3,144.0,190.0,92.0,Female,Yes,No,Medium,Average,1,"patient smokes, high blood pressure"
+79.0,24.1,139.0,157.0,133.0,Male,Yes,No,Medium,Average,0,patient smokes
+76.0,,100.0,260.0,129.0,Female,Yes,Yes,Medium,Good,1,"patient smokes, family history present, elevated cholesterol"
+67.0,,154.0,143.0,92.0,Female,No,No,Medium,Good,1,high blood pressure
+34.0,26.7,159.0,140.0,90.0,,No,No,,Average,0,high blood pressure
+68.0,31.4,117.0,240.0,122.0,Female,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+58.0,20.9,127.0,180.0,,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+55.0,34.7,129.0,229.0,154.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, elevated cholesterol, high glucose"
+28.0,19.0,100.0,260.0,76.0,Female,No,No,Medium,Good,0,elevated cholesterol
+52.0,24.1,,181.0,102.0,Male,No,Yes,Medium,Average,0,family history present
+39.0,26.0,154.0,145.0,112.0,Male,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+20.0,21.8,142.0,166.0,69.0,Male,No,Yes,High,Average,0,"family history present, high blood pressure"
+57.0,31.5,133.0,208.0,91.0,Female,No,No,Medium,Poor,1,poor diet
+29.0,21.7,131.0,186.0,100.0,Male,No,No,,Good,0,no significant issues noted
+73.0,29.4,148.0,159.0,128.0,Male,No,No,Medium,Average,0,high blood pressure
+32.0,21.3,131.0,184.0,112.0,Male,No,No,Low,Average,0,sedentary lifestyle
+80.0,32.6,106.0,260.0,110.0,Female,Yes,Yes,Medium,Good,1,"patient smokes, family history present, elevated cholesterol"
+55.0,33.5,119.0,249.0,89.0,Female,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+38.0,25.7,155.0,142.0,94.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+26.0,28.3,160.0,140.0,133.0,Male,No,No,High,Average,0,high blood pressure
+60.0,,133.0,175.0,110.0,Male,No,Yes,High,Average,0,family history present
+47.0,19.0,112.0,195.0,122.0,Male,No,,Medium,Poor,0,poor diet
+36.0,20.9,126.0,191.0,60.0,Male,No,Yes,,Poor,0,"family history present, poor diet"
+61.0,19.7,125.0,180.0,93.0,Male,No,No,High,Average,0,no significant issues noted
+63.0,24.4,137.0,,94.0,Female,No,No,Medium,Average,0,no significant issues noted
+29.0,21.3,133.0,180.0,160.0,Female,No,Yes,Medium,Average,0,"family history present, high glucose"
+80.0,22.1,134.0,161.0,,Female,No,Yes,Medium,Poor,0,"family history present, poor diet"
+50.0,20.2,114.0,213.0,115.0,Male,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+75.0,31.3,157.0,144.0,95.0,Male,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+66.0,,144.0,177.0,114.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+55.0,25.6,148.0,150.0,131.0,Male,No,No,Medium,Average,0,high blood pressure
+68.0,30.9,128.0,212.0,60.0,Male,No,Yes,Medium,Average,1,family history present
+51.0,22.4,127.0,189.0,,Male,No,No,Medium,Average,0,no significant issues noted
+20.0,19.2,135.0,179.0,97.0,Female,No,Yes,Medium,Good,0,family history present
+57.0,21.0,129.0,176.0,117.0,Female,No,Yes,Low,,0,"family history present, sedentary lifestyle"
+80.0,27.3,148.0,141.0,112.0,Male,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+40.0,30.1,110.0,260.0,65.0,Female,No,No,Medium,Poor,1,"poor diet, elevated cholesterol"
+32.0,21.9,134.0,179.0,69.0,Female,No,No,High,Poor,0,poor diet
+47.0,22.9,131.0,182.0,66.0,Female,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet"
+20.0,20.0,145.0,160.0,79.0,Female,No,No,High,Good,0,high blood pressure
+78.0,29.0,160.0,140.0,131.0,Male,Yes,No,High,Good,1,"patient smokes, high blood pressure"
+41.0,23.4,141.0,166.0,130.0,Female,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet, high blood pressure"
+39.0,21.5,135.0,,73.0,Male,,No,Medium,,0,no significant issues noted
+67.0,22.0,133.0,169.0,60.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+64.0,19.0,124.0,179.0,102.0,,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+33.0,20.2,128.0,186.0,129.0,Female,No,No,Medium,Average,0,no significant issues noted
+46.0,24.9,142.0,165.0,97.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+60.0,33.5,,197.0,60.0,Female,Yes,Yes,Low,Good,1,"patient smokes, family history present, sedentary lifestyle"
+80.0,30.6,100.0,260.0,78.0,Female,Yes,No,,Average,1,"patient smokes, elevated cholesterol"
+69.0,19.5,127.0,171.0,104.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+,32.4,134.0,216.0,91.0,Female,No,No,High,Average,1,shows concerning symptoms
+57.0,31.5,128.0,220.0,97.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+55.0,28.3,142.0,175.0,104.0,Female,Yes,No,Medium,Good,1,"patient smokes, high blood pressure"
+74.0,30.5,,,127.0,Female,No,No,Medium,Poor,1,poor diet
+55.0,28.7,160.0,140.0,88.0,Male,Yes,No,Medium,Average,0,"patient smokes, high blood pressure"
+52.0,23.7,133.0,179.0,144.0,Female,No,No,Medium,Average,0,high glucose
+47.0,20.9,128.0,184.0,101.0,Female,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+38.0,25.4,152.0,149.0,120.0,Female,Yes,,High,Average,0,"patient smokes, high blood pressure"
+80.0,25.4,142.0,155.0,130.0,Female,Yes,No,Medium,Average,0,"patient smokes, high blood pressure"
+77.0,23.1,137.0,160.0,80.0,Male,No,No,Low,Good,0,sedentary lifestyle
+58.0,33.8,129.0,224.0,91.0,Female,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+45.0,21.5,129.0,183.0,81.0,Male,No,No,Medium,Average,0,no significant issues noted
+53.0,31.2,125.0,225.0,81.0,,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+50.0,30.7,160.0,140.0,71.0,Female,Yes,No,Medium,Average,0,"patient smokes, high blood pressure"
+25.0,31.6,146.0,189.0,99.0,Male,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+37.0,19.0,119.0,197.0,107.0,Male,No,Yes,Medium,,0,family history present
+39.0,26.3,154.0,145.0,73.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+20.0,,147.0,157.0,112.0,Male,No,Yes,Low,Average,0,"family history present, sedentary lifestyle, high blood pressure"
+20.0,21.5,144.0,161.0,103.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, high blood pressure"
+80.0,32.2,,260.0,102.0,Male,Yes,Yes,Medium,Good,1,"patient smokes, family history present, elevated cholesterol"
+69.0,32.6,112.0,256.0,104.0,Male,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+79.0,31.7,100.0,260.0,117.0,Male,Yes,Yes,Medium,Average,1,"patient smokes, family history present, elevated cholesterol"
+71.0,35.0,146.0,189.0,112.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+,30.6,136.0,199.0,83.0,Male,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet"
+65.0,32.4,139.0,193.0,160.0,,No,Yes,Medium,Average,1,"family history present, high glucose"
+80.0,,123.0,208.0,160.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high glucose"
+56.0,27.3,141.0,174.0,114.0,Female,No,Yes,Medium,Good,1,"family history present, high blood pressure"
+44.0,33.4,132.0,222.0,122.0,Male,No,Yes,High,Good,1,"family history present, elevated cholesterol"
+20.0,19.0,111.0,217.0,108.0,Female,No,Yes,Medium,Average,0,family history present
+61.0,35.0,136.0,215.0,126.0,Male,No,No,High,Average,1,shows concerning symptoms
+80.0,25.8,142.0,154.0,128.0,Male,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+80.0,26.9,145.0,150.0,135.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+64.0,30.0,129.0,208.0,,Male,No,No,Medium,Average,1,shows concerning symptoms
+61.0,27.0,146.0,159.0,68.0,Female,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+56.0,22.3,132.0,176.0,61.0,Male,No,Yes,High,Average,0,family history present
+,22.8,138.0,,110.0,Male,No,No,Low,Good,0,sedentary lifestyle
+43.0,30.6,139.0,195.0,140.0,Female,Yes,No,Medium,Average,1,patient smokes
+58.0,31.6,126.0,224.0,129.0,,No,No,Medium,Good,1,elevated cholesterol
+80.0,29.8,109.0,246.0,103.0,,No,No,Medium,Average,1,elevated cholesterol
+40.0,23.3,132.0,186.0,123.0,Female,No,No,,Average,0,no significant issues noted
+63.0,27.2,144.0,163.0,119.0,Female,No,No,High,Poor,0,"poor diet, high blood pressure"
+58.0,28.1,150.0,154.0,129.0,Male,,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+58.0,30.5,138.0,191.0,,Female,No,Yes,High,Average,1,family history present
+63.0,31.4,136.0,197.0,114.0,Male,No,No,,Average,1,shows concerning symptoms
+20.0,19.8,132.0,182.0,105.0,,No,Yes,Medium,Poor,0,"family history present, poor diet"
+80.0,33.7,100.0,260.0,70.0,Female,,No,Medium,Average,1,elevated cholesterol
+67.0,25.8,141.0,164.0,97.0,Female,No,No,High,Average,0,high blood pressure
+72.0,30.8,114.0,242.0,73.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, elevated cholesterol"
+65.0,30.0,124.0,220.0,107.0,Male,Yes,,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet"
+72.0,29.5,149.0,156.0,91.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+59.0,30.9,151.0,162.0,109.0,,Yes,No,Medium,Average,0,"patient smokes, high blood pressure"
+47.0,35.0,107.0,260.0,81.0,Female,Yes,No,Low,Average,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+66.0,22.0,131.0,173.0,93.0,Female,No,No,Low,Average,0,sedentary lifestyle
+,26.4,160.0,140.0,78.0,Female,,No,Medium,Poor,1,"poor diet, high blood pressure"
+50.0,31.8,132.0,214.0,81.0,Female,Yes,Yes,Low,Good,1,"patient smokes, family history present, sedentary lifestyle"
+65.0,,134.0,170.0,116.0,Female,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet"
+79.0,,119.0,223.0,145.0,Male,No,No,High,Average,1,"elevated cholesterol, high glucose"
+42.0,23.5,137.0,173.0,92.0,Male,No,Yes,,Poor,0,"family history present, poor diet"
+80.0,27.2,146.0,151.0,124.0,Male,Yes,,,Average,0,"patient smokes, high blood pressure"
+36.0,23.0,137.0,174.0,92.0,Female,No,Yes,High,Average,0,family history present
+64.0,30.4,147.0,169.0,113.0,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+46.0,21.0,127.0,186.0,71.0,Male,Yes,No,Medium,Average,0,patient smokes
+45.0,29.5,146.0,174.0,158.0,Female,Yes,No,Medium,Average,0,"patient smokes, high blood pressure, high glucose"
+57.0,20.7,127.0,181.0,67.0,Female,No,Yes,Medium,Poor,0,"family history present, poor diet"
+80.0,30.3,106.0,249.0,84.0,Female,,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+56.0,25.6,138.0,173.0,105.0,Female,No,No,Low,Average,0,sedentary lifestyle
+80.0,23.0,136.0,159.0,91.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+68.0,27.3,,140.0,92.0,Male,Yes,No,Medium,Average,1,patient smokes
+42.0,22.1,125.0,195.0,101.0,Female,No,No,High,Good,0,no significant issues noted
+76.0,33.6,149.0,170.0,74.0,Female,No,Yes,Medium,Average,1,"family history present, high blood pressure"
+20.0,19.0,126.0,191.0,,Female,Yes,No,Medium,Good,0,patient smokes
+,24.5,137.0,168.0,78.0,Male,No,Yes,High,Average,0,family history present
+75.0,34.6,147.0,180.0,67.0,Female,No,Yes,Medium,Good,1,"family history present, high blood pressure"
+,25.2,,163.0,121.0,Female,No,No,Low,Average,0,sedentary lifestyle
+40.0,24.6,147.0,156.0,86.0,Female,No,No,High,Average,0,high blood pressure
+,21.8,130.0,178.0,125.0,Male,No,No,Medium,Good,0,no significant issues noted
+69.0,29.1,124.0,213.0,120.0,Female,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle"
+64.0,29.8,127.0,211.0,,Female,Yes,No,Medium,Good,1,patient smokes
+75.0,,160.0,140.0,76.0,Female,No,No,High,Average,1,high blood pressure
+69.0,24.4,138.0,164.0,151.0,Male,,No,Low,Poor,0,"sedentary lifestyle, poor diet, high glucose"
+,25.6,140.0,162.0,110.0,Female,Yes,No,Medium,Average,0,patient smokes
+40.0,21.0,123.0,,94.0,,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+69.0,22.6,133.0,169.0,120.0,,Yes,No,Low,Good,0,"patient smokes, sedentary lifestyle"
+79.0,28.6,160.0,140.0,98.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+,33.9,153.0,164.0,135.0,Male,No,,Medium,Poor,1,"poor diet, high blood pressure"
+57.0,30.7,126.0,220.0,75.0,Female,No,No,High,Poor,1,poor diet
+60.0,22.1,130.0,178.0,139.0,Male,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet"
+72.0,30.9,154.0,151.0,129.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+80.0,22.9,136.0,159.0,101.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+43.0,28.9,160.0,140.0,157.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure, high glucose"
+73.0,28.7,156.0,140.0,116.0,Female,No,No,Medium,Average,1,high blood pressure
+65.0,21.0,129.0,173.0,113.0,Female,No,Yes,Medium,Good,0,family history present
+66.0,,136.0,206.0,117.0,,No,No,Medium,Average,1,shows concerning symptoms
+73.0,19.4,127.0,169.0,125.0,Male,Yes,No,Medium,Average,0,patient smokes
+68.0,19.3,126.0,174.0,97.0,Female,,Yes,Medium,Poor,0,"family history present, poor diet"
+80.0,30.6,109.0,248.0,107.0,Female,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+20.0,21.4,147.0,156.0,126.0,Male,Yes,Yes,,Poor,0,"patient smokes, family history present, poor diet, high blood pressure"
+72.0,31.2,123.0,222.0,89.0,Male,No,No,High,Poor,1,"poor diet, elevated cholesterol"
+55.0,21.9,118.0,,96.0,Female,No,Yes,Medium,Poor,0,"family history present, poor diet"
+51.0,23.0,132.0,180.0,139.0,Female,No,No,,Good,0,no significant issues noted
+42.0,25.3,,168.0,156.0,Male,No,No,High,Poor,0,"poor diet, high glucose"
+20.0,19.0,118.0,204.0,122.0,Male,No,Yes,Medium,Average,0,family history present
+71.0,27.3,160.0,140.0,,Male,Yes,Yes,High,Average,1,"patient smokes, family history present, high blood pressure"
+,28.4,128.0,212.0,87.0,Female,Yes,No,Medium,Good,1,patient smokes
+73.0,21.8,131.0,169.0,138.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+51.0,24.8,,169.0,127.0,Female,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+58.0,,134.0,207.0,60.0,Male,Yes,Yes,Low,,1,"patient smokes, family history present, sedentary lifestyle"
+61.0,29.6,147.0,167.0,160.0,Male,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, high blood pressure, high glucose"
+61.0,,125.0,197.0,94.0,,No,No,Medium,Average,0,no significant issues noted
+75.0,32.6,137.0,196.0,81.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+57.0,28.2,139.0,182.0,98.0,,No,No,Medium,Average,1,shows concerning symptoms
+42.0,31.7,133.0,214.0,119.0,Female,No,No,Medium,Poor,1,poor diet
+69.0,26.1,142.0,163.0,,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+80.0,31.5,103.0,260.0,139.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, elevated cholesterol"
+80.0,28.8,147.0,157.0,105.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+,29.8,143.0,177.0,123.0,,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high blood pressure"
+80.0,28.0,148.0,148.0,98.0,Male,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+35.0,22.9,141.0,165.0,128.0,Female,Yes,Yes,Medium,,0,"patient smokes, family history present, high blood pressure"
+61.0,30.7,139.0,189.0,144.0,Male,Yes,Yes,Low,Poor,1,"patient smokes, family history present, sedentary lifestyle, poor diet, high glucose"
+54.0,27.9,155.0,145.0,82.0,Female,Yes,No,High,Poor,0,"patient smokes, poor diet, high blood pressure"
+43.0,23.2,137.0,171.0,79.0,Female,No,No,Medium,Average,0,no significant issues noted
+69.0,26.6,139.0,171.0,71.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet"
+20.0,23.9,157.0,140.0,,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+61.0,25.6,157.0,140.0,159.0,Male,No,Yes,High,Good,1,"family history present, high blood pressure, high glucose"
+69.0,33.5,,180.0,118.0,Female,No,,Medium,,1,shows concerning symptoms
+,33.9,112.0,260.0,108.0,Male,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+67.0,23.8,137.0,165.0,96.0,Male,No,Yes,Medium,Average,0,family history present
+70.0,20.8,130.0,169.0,103.0,Female,Yes,No,Medium,Average,0,patient smokes
+59.0,33.7,114.0,260.0,152.0,Female,Yes,Yes,Medium,Good,1,"patient smokes, family history present, elevated cholesterol, high glucose"
+72.0,22.1,134.0,165.0,103.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet"
+79.0,25.4,139.0,161.0,152.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present, high glucose"
+22.0,22.3,144.0,160.0,102.0,Female,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+80.0,26.4,145.0,148.0,94.0,Male,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+22.0,23.2,147.0,157.0,107.0,Female,Yes,No,Low,Poor,0,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+60.0,29.1,137.0,187.0,85.0,Female,Yes,Yes,High,Average,1,"patient smokes, family history present"
+38.0,19.0,102.0,235.0,130.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle, elevated cholesterol"
+58.0,25.7,139.0,170.0,125.0,Female,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+55.0,19.2,125.0,180.0,94.0,Female,Yes,No,Medium,,0,patient smokes
+68.0,29.3,128.0,207.0,104.0,Female,No,Yes,High,Good,1,family history present
+71.0,30.3,122.0,222.0,119.0,,No,Yes,Medium,Good,1,"family history present, elevated cholesterol"
+80.0,,150.0,146.0,,Female,No,Yes,High,Average,0,"family history present, high blood pressure"
+61.0,26.3,149.0,150.0,64.0,Male,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+80.0,28.8,114.0,228.0,75.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, elevated cholesterol"
+39.0,23.4,139.0,169.0,107.0,Male,Yes,Yes,Medium,Average,0,"patient smokes, family history present"
+71.0,25.3,139.0,166.0,135.0,,No,Yes,Medium,Good,0,family history present
+80.0,30.1,106.0,253.0,87.0,Male,Yes,No,High,Poor,1,"patient smokes, poor diet, elevated cholesterol"
+80.0,29.0,121.0,215.0,158.0,,No,Yes,High,,1,"family history present, high glucose"
+72.0,24.0,137.0,165.0,140.0,Male,No,Yes,Medium,Good,0,family history present
+67.0,29.6,123.0,219.0,107.0,Female,Yes,No,High,Average,1,patient smokes
+42.0,30.5,160.0,140.0,137.0,Male,Yes,No,,Poor,0,"patient smokes, poor diet, high blood pressure"
+64.0,30.7,149.0,165.0,114.0,Male,Yes,Yes,Low,Poor,1,"patient smokes, family history present, sedentary lifestyle, poor diet, high blood pressure"
+61.0,27.3,160.0,140.0,75.0,Female,No,,Medium,,1,high blood pressure
+20.0,34.9,137.0,225.0,94.0,Female,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+55.0,22.1,,177.0,95.0,Male,No,No,,Poor,0,poor diet
+64.0,19.4,126.0,175.0,101.0,Female,No,No,Low,,0,sedentary lifestyle
+62.0,30.3,149.0,164.0,89.0,Male,No,,Medium,Average,1,high blood pressure
+66.0,34.9,146.0,185.0,140.0,Male,No,Yes,,Good,1,"family history present, high blood pressure"
+49.0,26.5,145.0,164.0,118.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+75.0,32.9,109.0,260.0,115.0,Male,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+20.0,21.4,140.0,171.0,105.0,Female,No,No,Medium,Good,0,no significant issues noted
+80.0,24.1,139.0,154.0,83.0,Female,No,No,Low,Average,0,sedentary lifestyle
+62.0,26.5,,145.0,112.0,Female,No,Yes,Medium,Good,1,family history present
+80.0,24.1,138.0,158.0,145.0,Male,No,No,Medium,Average,0,high glucose
+,33.0,160.0,140.0,93.0,Female,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, high blood pressure"
+36.0,20.4,124.0,194.0,105.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle"
+68.0,29.0,147.0,161.0,98.0,Male,No,No,Medium,Good,0,high blood pressure
+66.0,,157.0,140.0,141.0,Male,,,High,Good,0,"high blood pressure, high glucose"
+26.0,,146.0,157.0,96.0,Male,No,No,Low,Good,0,"sedentary lifestyle, high blood pressure"
+65.0,28.5,160.0,140.0,96.0,Female,No,No,High,Good,1,high blood pressure
+51.0,28.4,136.0,192.0,160.0,Female,No,No,Medium,Average,1,high glucose
+52.0,23.1,,178.0,116.0,Male,No,No,Medium,Good,0,no significant issues noted
+60.0,,135.0,170.0,103.0,Female,No,No,Medium,Good,0,no significant issues noted
+67.0,,133.0,198.0,96.0,Female,Yes,No,Medium,Poor,1,"patient smokes, poor diet"
+20.0,19.0,107.0,223.0,,Female,No,Yes,High,Poor,0,"family history present, poor diet, elevated cholesterol"
+58.0,22.6,122.0,198.0,66.0,Male,Yes,No,Medium,Average,0,patient smokes
+58.0,26.7,140.0,173.0,,Male,Yes,Yes,Medium,Good,0,"patient smokes, family history present"
+80.0,25.3,141.0,155.0,133.0,,No,No,Medium,Average,0,high blood pressure
+80.0,20.5,132.0,157.0,114.0,Female,No,No,Low,Average,0,sedentary lifestyle
+54.0,19.0,123.0,182.0,90.0,Female,No,,Medium,Poor,0,poor diet
+65.0,23.5,133.0,173.0,62.0,Female,No,Yes,,Average,0,family history present
+55.0,29.4,130.0,207.0,130.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+46.0,32.3,119.0,246.0,101.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+52.0,24.9,138.0,174.0,81.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+41.0,33.2,124.0,241.0,149.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, elevated cholesterol, high glucose"
+72.0,29.9,118.0,231.0,96.0,Male,No,No,Medium,Good,1,elevated cholesterol
+80.0,28.7,160.0,140.0,89.0,Female,No,No,Medium,Poor,1,"poor diet, high blood pressure"
+70.0,33.3,144.0,184.0,75.0,Female,No,Yes,Low,Good,1,"family history present, sedentary lifestyle, high blood pressure"
+20.0,19.5,141.0,165.0,122.0,Male,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+36.0,26.8,160.0,140.0,114.0,Male,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+67.0,29.5,159.0,140.0,96.0,Male,No,No,Medium,Poor,1,"poor diet, high blood pressure"
+77.0,28.3,127.0,201.0,96.0,Female,No,No,Medium,Poor,1,poor diet
+61.0,27.8,143.0,,91.0,Female,No,Yes,Medium,Average,0,"family history present, high blood pressure"
+41.0,25.1,146.0,159.0,89.0,Male,No,Yes,,Good,0,"family history present, high blood pressure"
+61.0,28.1,144.0,168.0,95.0,Male,No,Yes,High,Average,0,"family history present, high blood pressure"
+45.0,28.9,119.0,234.0,137.0,Female,Yes,No,Medium,Average,1,"patient smokes, elevated cholesterol"
+43.0,20.2,119.0,204.0,116.0,Male,Yes,,Medium,Average,1,patient smokes
+60.0,24.8,138.0,,112.0,Male,No,Yes,Medium,Average,0,family history present
+70.0,31.0,123.0,224.0,60.0,Male,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol"
+53.0,28.8,158.0,140.0,133.0,Male,Yes,No,High,Average,0,"patient smokes, high blood pressure"
+74.0,31.9,111.0,253.0,82.0,Male,No,No,Medium,Average,1,elevated cholesterol
+62.0,24.9,159.0,140.0,145.0,Female,No,No,Low,Good,1,"sedentary lifestyle, high blood pressure, high glucose"
+74.0,22.5,134.0,165.0,91.0,Female,Yes,No,High,Average,0,patient smokes
+,31.4,132.0,216.0,,Female,No,No,Medium,Poor,1,poor diet
+68.0,32.0,151.0,162.0,81.0,Female,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+20.0,19.0,122.0,196.0,155.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high glucose"
+72.0,30.8,149.0,161.0,89.0,Male,No,No,Low,Average,1,"sedentary lifestyle, high blood pressure"
+36.0,27.5,160.0,140.0,98.0,Male,,No,Medium,Good,1,high blood pressure
+76.0,30.5,126.0,213.0,156.0,Female,No,No,Low,Average,1,"sedentary lifestyle, high glucose"
+63.0,29.3,139.0,182.0,77.0,,No,No,High,,1,shows concerning symptoms
+47.0,26.7,150.0,154.0,100.0,Female,No,Yes,High,Good,0,"family history present, high blood pressure"
+59.0,30.5,145.0,,117.0,Female,No,Yes,,Average,1,"family history present, high blood pressure"
+57.0,19.0,125.0,179.0,60.0,Male,Yes,Yes,Medium,Good,0,"patient smokes, family history present"
+72.0,23.4,135.0,166.0,97.0,Female,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet"
+20.0,19.0,114.0,213.0,118.0,Female,No,Yes,Low,Average,0,"family history present, sedentary lifestyle"
+,20.6,126.0,183.0,60.0,Male,No,Yes,Medium,Good,0,family history present
+39.0,22.9,135.0,178.0,68.0,Male,,No,Low,Good,0,sedentary lifestyle
+57.0,29.5,125.0,220.0,131.0,Female,No,No,Low,Good,1,sedentary lifestyle
+74.0,35.0,139.0,201.0,118.0,Female,No,No,,Average,1,shows concerning symptoms
+57.0,29.9,,,94.0,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+43.0,23.6,,171.0,85.0,Female,No,Yes,,Average,0,family history present
+76.0,25.1,140.0,159.0,142.0,Male,Yes,No,Medium,Average,0,"patient smokes, high glucose"
+,26.3,143.0,158.0,140.0,Female,No,Yes,High,Poor,0,"family history present, poor diet, high blood pressure"
+62.0,28.6,160.0,140.0,134.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure"
+74.0,30.0,154.0,146.0,160.0,,No,No,High,Average,1,"high blood pressure, high glucose"
+80.0,33.9,160.0,140.0,90.0,Female,No,Yes,Medium,Poor,1,"family history present, poor diet, high blood pressure"
+65.0,30.0,146.0,167.0,101.0,Female,,Yes,High,Average,1,"family history present, high blood pressure"
+68.0,24.6,139.0,164.0,140.0,Female,Yes,No,Medium,Good,0,patient smokes
+56.0,33.8,112.0,260.0,113.0,Male,Yes,No,Low,Good,1,"patient smokes, sedentary lifestyle, elevated cholesterol"
+57.0,31.3,123.0,231.0,118.0,Male,No,No,High,Poor,1,"poor diet, elevated cholesterol"
+55.0,32.1,140.0,193.0,,Male,No,Yes,Low,Good,1,"family history present, sedentary lifestyle"
+62.0,29.5,137.0,189.0,141.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet, high glucose"
+53.0,31.1,130.0,214.0,131.0,,No,Yes,Low,,1,"family history present, sedentary lifestyle"
+26.0,35.0,111.0,260.0,138.0,Female,No,No,Medium,Good,1,elevated cholesterol
+20.0,21.5,144.0,160.0,110.0,Female,,No,Medium,Poor,0,"poor diet, high blood pressure"
+65.0,28.7,132.0,195.0,97.0,Female,Yes,No,Medium,Poor,1,"patient smokes, poor diet"
+70.0,28.1,141.0,171.0,126.0,Male,No,Yes,High,Poor,1,"family history present, poor diet, high blood pressure"
+45.0,25.3,145.0,161.0,136.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+65.0,34.1,141.0,195.0,125.0,Female,No,Yes,,Good,1,"family history present, high blood pressure"
+54.0,23.2,133.0,178.0,159.0,Male,Yes,Yes,Medium,Poor,0,"patient smokes, family history present, poor diet, high glucose"
+,26.0,159.0,140.0,,Female,No,Yes,High,Poor,0,"family history present, poor diet, high blood pressure"
+64.0,28.8,149.0,157.0,144.0,,No,No,Low,Average,1,"sedentary lifestyle, high blood pressure, high glucose"
+68.0,31.7,128.0,216.0,82.0,Male,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet"
+72.0,23.0,135.0,166.0,141.0,Male,No,No,Medium,Average,0,high glucose
+20.0,25.0,160.0,140.0,103.0,Male,No,Yes,Medium,Good,0,"family history present, high blood pressure"
+63.0,27.4,144.0,164.0,93.0,Male,No,No,Medium,,0,high blood pressure
+48.0,20.9,122.0,195.0,110.0,Male,No,No,Medium,Good,0,no significant issues noted
+49.0,24.3,139.0,,84.0,Female,No,Yes,Medium,Average,0,family history present
+44.0,29.0,129.0,213.0,,Female,Yes,Yes,Medium,Good,1,"patient smokes, family history present"
+43.0,27.7,,149.0,134.0,Female,No,Yes,Low,,0,"family history present, sedentary lifestyle"
+36.0,24.2,144.0,163.0,146.0,Female,No,No,Low,Poor,0,"sedentary lifestyle, poor diet, high blood pressure, high glucose"
+57.0,29.8,133.0,202.0,108.0,Female,,Yes,Low,Average,1,"family history present, sedentary lifestyle"
+26.0,20.0,126.0,193.0,103.0,Male,No,No,Medium,Poor,0,poor diet
+59.0,31.1,142.0,184.0,140.0,Male,No,No,Medium,Good,1,high blood pressure
+65.0,30.3,159.0,140.0,60.0,Female,Yes,No,Medium,Average,1,"patient smokes, high blood pressure"
+80.0,29.4,119.0,222.0,148.0,Male,No,No,Medium,Good,1,"elevated cholesterol, high glucose"
+37.0,21.4,128.0,189.0,135.0,Male,No,No,Medium,Average,0,no significant issues noted
+78.0,29.5,122.0,216.0,60.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+70.0,27.8,160.0,140.0,79.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+24.0,20.1,122.0,202.0,103.0,Female,No,No,Medium,Poor,0,poor diet
+20.0,19.4,136.0,175.0,116.0,Female,No,Yes,,Average,0,family history present
+66.0,31.8,122.0,230.0,140.0,Male,No,No,Medium,Average,1,elevated cholesterol
+23.0,24.9,155.0,145.0,96.0,Female,Yes,No,Medium,Good,0,"patient smokes, high blood pressure"
+78.0,27.3,144.0,157.0,126.0,Female,No,No,Medium,Average,0,high blood pressure
+36.0,24.4,145.0,160.0,96.0,Female,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+77.0,35.0,150.0,175.0,110.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+59.0,32.8,130.0,218.0,104.0,Female,Yes,No,Medium,Average,1,patient smokes
+65.0,32.7,118.0,244.0,119.0,Male,Yes,Yes,Low,Poor,1,"patient smokes, family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+65.0,28.8,135.0,188.0,104.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+73.0,28.4,117.0,227.0,130.0,Male,Yes,No,,Average,1,"patient smokes, elevated cholesterol"
+74.0,33.1,153.0,159.0,89.0,,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+,19.0,122.0,176.0,139.0,Male,No,Yes,,Average,0,family history present
+49.0,31.2,126.0,226.0,127.0,Male,No,,Low,Poor,1,"sedentary lifestyle, poor diet, elevated cholesterol"
+61.0,28.8,137.0,185.0,148.0,Female,No,Yes,Medium,Average,1,"family history present, high glucose"
+57.0,28.3,143.0,173.0,104.0,Female,Yes,Yes,Medium,Poor,1,"patient smokes, family history present, poor diet, high blood pressure"
+66.0,31.8,157.0,150.0,105.0,Female,No,No,Low,Average,1,"sedentary lifestyle, high blood pressure"
+71.0,24.7,139.0,163.0,154.0,Female,No,No,High,Poor,0,"poor diet, high glucose"
+69.0,35.0,142.0,202.0,110.0,Female,No,Yes,Medium,Good,1,"family history present, high blood pressure"
+39.0,22.2,133.0,179.0,145.0,,No,No,High,Poor,0,"poor diet, high glucose"
+77.0,19.0,124.0,172.0,64.0,Male,No,No,Low,Average,0,sedentary lifestyle
+23.0,20.9,124.0,201.0,139.0,Female,Yes,Yes,High,Average,0,"patient smokes, family history present"
+48.0,25.2,144.0,162.0,119.0,,No,Yes,High,Poor,0,"family history present, poor diet, high blood pressure"
+76.0,30.0,112.0,242.0,118.0,Male,No,Yes,,Average,1,"family history present, elevated cholesterol"
+51.0,31.3,124.0,229.0,63.0,Female,No,Yes,Low,,1,"family history present, sedentary lifestyle, elevated cholesterol"
+63.0,29.4,146.0,168.0,138.0,Female,Yes,No,Medium,Good,1,"patient smokes, high blood pressure"
+61.0,27.6,154.0,143.0,141.0,Male,No,No,Medium,Average,1,"high blood pressure, high glucose"
+58.0,22.8,126.0,191.0,88.0,Male,No,Yes,High,Poor,0,"family history present, poor diet"
+80.0,29.3,,212.0,160.0,Male,No,No,Medium,Average,0,high glucose
+73.0,24.3,138.0,163.0,,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+66.0,27.0,141.0,168.0,144.0,Male,No,No,Low,Poor,0,"sedentary lifestyle, poor diet, high blood pressure, high glucose"
+34.0,22.2,,177.0,121.0,Female,No,No,Medium,Good,0,no significant issues noted
+80.0,24.6,126.0,179.0,95.0,Female,Yes,Yes,High,Average,1,"patient smokes, family history present"
+73.0,19.0,124.0,170.0,92.0,Female,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+27.0,22.8,141.0,167.0,95.0,Female,No,No,Medium,Average,0,high blood pressure
+76.0,27.2,122.0,208.0,140.0,Female,Yes,No,High,Average,1,patient smokes
+23.0,19.0,125.0,193.0,104.0,Female,No,Yes,Low,Poor,0,"family history present, sedentary lifestyle, poor diet"
+68.0,19.0,123.0,174.0,82.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+71.0,24.4,138.0,164.0,67.0,Male,No,Yes,Medium,Poor,0,"family history present, poor diet"
+,27.3,160.0,140.0,107.0,Female,No,No,Medium,Good,0,high blood pressure
+26.0,30.1,149.0,176.0,106.0,Male,No,No,Low,Good,1,"sedentary lifestyle, high blood pressure"
+20.0,19.0,106.0,229.0,95.0,Male,Yes,No,High,Average,0,"patient smokes, elevated cholesterol"
+53.0,,151.0,149.0,122.0,Male,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+52.0,23.0,132.0,179.0,125.0,Female,No,No,High,Average,0,no significant issues noted
+74.0,31.6,107.0,260.0,114.0,Male,Yes,No,High,Average,1,"patient smokes, elevated cholesterol"
+37.0,25.6,,140.0,87.0,Female,Yes,Yes,High,Average,0,"patient smokes, family history present"
+51.0,24.1,138.0,170.0,75.0,Male,No,No,Medium,Good,0,no significant issues noted
+61.0,26.4,141.0,167.0,94.0,Male,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+64.0,31.8,148.0,170.0,97.0,Male,No,Yes,Medium,Good,1,"family history present, high blood pressure"
+44.0,29.6,130.0,213.0,124.0,Male,No,No,Low,Poor,1,"sedentary lifestyle, poor diet"
+59.0,,147.0,157.0,124.0,Female,No,No,Medium,Average,0,high blood pressure
+45.0,22.8,132.0,183.0,112.0,,No,No,Low,,0,sedentary lifestyle
+69.0,29.6,132.0,198.0,68.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+76.0,27.7,146.0,157.0,69.0,Female,No,No,Low,Poor,0,"sedentary lifestyle, poor diet, high blood pressure"
+80.0,25.7,146.0,140.0,60.0,Female,Yes,No,Low,Average,0,"patient smokes, sedentary lifestyle, high blood pressure"
+78.0,20.0,130.0,164.0,123.0,Male,No,Yes,Low,Good,0,"family history present, sedentary lifestyle"
+,23.4,134.0,173.0,125.0,Female,No,Yes,Medium,Average,0,family history present
+64.0,35.0,100.0,260.0,130.0,Female,No,,Medium,Poor,1,"poor diet, elevated cholesterol"
+70.0,29.5,148.0,160.0,83.0,,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, high blood pressure"
+56.0,30.4,141.0,185.0,90.0,Female,No,No,High,Average,1,high blood pressure
+46.0,28.6,160.0,140.0,100.0,Female,No,Yes,High,Average,0,"family history present, high blood pressure"
+59.0,23.3,133.0,176.0,,Female,No,Yes,Medium,Poor,0,"family history present, poor diet"
+64.0,30.0,130.0,204.0,103.0,Male,No,No,Medium,Average,1,shows concerning symptoms
+,25.0,143.0,164.0,115.0,Male,No,,Medium,Poor,0,"poor diet, high blood pressure"
+53.0,26.3,139.0,176.0,126.0,Male,No,No,Low,Average,0,sedentary lifestyle
+77.0,,142.0,157.0,83.0,Female,No,,Medium,Average,0,high blood pressure
+74.0,26.0,142.0,159.0,99.0,Female,Yes,Yes,Low,Poor,0,"patient smokes, family history present, sedentary lifestyle, poor diet, high blood pressure"
+42.0,30.2,134.0,205.0,96.0,Male,Yes,No,High,Poor,1,"patient smokes, poor diet"
+72.0,21.9,134.0,164.0,101.0,Male,No,No,High,Poor,0,poor diet
+80.0,30.2,110.0,243.0,117.0,Female,No,No,High,Poor,1,"poor diet, elevated cholesterol"
+57.0,31.1,135.0,,119.0,,No,No,Medium,Average,1,shows concerning symptoms
+57.0,20.4,127.0,,89.0,Female,,No,Medium,Good,0,no significant issues noted
+54.0,30.1,143.0,179.0,113.0,Male,Yes,No,High,Good,1,"patient smokes, high blood pressure"
+40.0,20.8,126.0,191.0,119.0,Female,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+76.0,32.2,,260.0,160.0,Male,Yes,No,Low,,1,"patient smokes, sedentary lifestyle, elevated cholesterol, high glucose"
+20.0,19.0,120.0,202.0,132.0,Female,No,No,Medium,Average,0,no significant issues noted
+20.0,33.4,151.0,191.0,98.0,Male,Yes,No,Medium,Good,1,"patient smokes, high blood pressure"
+70.0,26.6,160.0,140.0,160.0,Male,No,,Medium,Poor,1,"poor diet, high blood pressure, high glucose"
+70.0,30.8,115.0,241.0,142.0,Male,No,No,Low,Average,1,"sedentary lifestyle, elevated cholesterol, high glucose"
+31.0,23.8,145.0,159.0,114.0,Female,No,No,Medium,Average,0,high blood pressure
+66.0,32.5,150.0,169.0,139.0,Female,Yes,No,Low,Poor,1,"patient smokes, sedentary lifestyle, poor diet, high blood pressure"
+60.0,26.7,155.0,140.0,114.0,Male,Yes,Yes,Low,Average,1,"patient smokes, family history present, sedentary lifestyle, high blood pressure"
+46.0,31.0,133.0,210.0,135.0,Female,Yes,Yes,Low,Good,1,"patient smokes, family history present, sedentary lifestyle"
+58.0,28.1,156.0,141.0,99.0,Male,Yes,No,Medium,Good,0,"patient smokes, high blood pressure"
+74.0,24.4,,164.0,60.0,Male,Yes,No,High,Poor,0,"patient smokes, poor diet"
+34.0,32.3,139.0,,108.0,,,No,Medium,Average,1,shows concerning symptoms
+32.0,21.7,133.0,179.0,101.0,Female,No,Yes,Medium,Average,0,family history present
+68.0,32.1,151.0,165.0,69.0,Male,No,No,Medium,Average,1,high blood pressure
+57.0,27.2,143.0,169.0,146.0,,No,No,Medium,Average,0,"high blood pressure, high glucose"
+66.0,20.8,130.0,172.0,139.0,Male,Yes,No,High,Poor,0,"patient smokes, poor diet"
+,25.7,139.0,175.0,129.0,Male,No,No,Medium,Good,0,no significant issues noted
+72.0,32.0,153.0,156.0,95.0,Male,No,No,Medium,Good,1,high blood pressure
+29.0,22.9,143.0,163.0,119.0,Female,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+63.0,27.0,143.0,164.0,106.0,Male,No,No,Low,Average,0,"sedentary lifestyle, high blood pressure"
+29.0,23.7,153.0,143.0,129.0,Female,No,No,High,Average,0,high blood pressure
+20.0,24.4,158.0,140.0,121.0,Female,,No,Medium,Average,0,high blood pressure
+80.0,28.5,116.0,222.0,63.0,Male,Yes,No,High,Poor,1,"patient smokes, poor diet, elevated cholesterol"
+69.0,32.6,114.0,252.0,125.0,Female,No,Yes,High,Average,1,"family history present, elevated cholesterol"
+63.0,30.0,118.0,234.0,107.0,Female,No,Yes,Low,Poor,1,"family history present, sedentary lifestyle, poor diet, elevated cholesterol"
+61.0,27.1,144.0,163.0,81.0,Male,,No,Medium,Good,0,high blood pressure
+80.0,26.9,147.0,144.0,144.0,Male,No,No,Medium,Average,0,"high blood pressure, high glucose"
+34.0,31.9,135.0,214.0,,Male,No,No,Medium,Average,1,shows concerning symptoms
+76.0,31.5,,150.0,117.0,,Yes,Yes,Low,Average,0,"patient smokes, family history present, sedentary lifestyle"
+50.0,33.6,122.0,243.0,139.0,Male,No,No,Low,Good,1,"sedentary lifestyle, elevated cholesterol"
+75.0,25.4,140.0,162.0,103.0,Female,No,Yes,Medium,Poor,0,"family history present, poor diet"
+46.0,25.0,,192.0,95.0,Female,No,No,Medium,Poor,1,poor diet
+80.0,28.6,149.0,149.0,160.0,Female,No,No,Medium,Poor,0,"poor diet, high blood pressure, high glucose"
+42.0,20.5,126.0,189.0,110.0,Male,Yes,No,Medium,Average,0,patient smokes
+45.0,19.0,121.0,191.0,97.0,Female,No,No,Medium,Good,0,no significant issues noted
+40.0,25.8,137.0,182.0,89.0,Male,Yes,Yes,High,Poor,0,"patient smokes, family history present, poor diet"
+65.0,29.2,152.0,151.0,118.0,Male,No,No,Medium,Good,1,high blood pressure
+64.0,31.5,123.0,228.0,123.0,Male,Yes,No,Medium,,1,"patient smokes, elevated cholesterol"
+35.0,22.0,134.0,178.0,,Male,,No,Medium,Average,0,no significant issues noted
+43.0,28.5,160.0,,129.0,Male,No,,Medium,,0,high blood pressure
+41.0,19.0,113.0,212.0,94.0,Male,No,Yes,Medium,Average,0,family history present
+46.0,,123.0,237.0,123.0,Male,,Yes,Medium,Average,1,"family history present, elevated cholesterol"
+50.0,25.7,148.0,153.0,82.0,Male,No,Yes,High,Average,0,"family history present, high blood pressure"
+38.0,23.0,132.0,185.0,118.0,Female,No,Yes,High,Poor,0,"family history present, poor diet"
+79.0,31.6,118.0,234.0,146.0,Male,No,Yes,High,,1,"family history present, elevated cholesterol, high glucose"
+64.0,32.7,139.0,195.0,80.0,Female,No,No,Medium,Good,1,shows concerning symptoms
+,25.4,156.0,,124.0,Female,No,No,Medium,Average,0,high blood pressure
+,32.0,160.0,140.0,96.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, high blood pressure"
+78.0,34.1,158.0,150.0,111.0,Female,No,Yes,High,Good,1,"family history present, high blood pressure"
+70.0,28.5,152.0,146.0,144.0,Female,Yes,Yes,Medium,Poor,0,"patient smokes, family history present, poor diet, high blood pressure, high glucose"
+74.0,26.3,143.0,159.0,130.0,Female,No,No,Medium,Good,0,high blood pressure
+38.0,30.5,112.0,259.0,117.0,Female,Yes,Yes,Medium,Average,1,"patient smokes, family history present, elevated cholesterol"
+69.0,29.5,160.0,140.0,124.0,Female,No,No,Medium,Good,1,high blood pressure
+60.0,30.4,,210.0,117.0,Male,No,No,Medium,Poor,1,poor diet
+73.0,,111.0,253.0,97.0,Male,No,Yes,Low,Average,1,"family history present, sedentary lifestyle, elevated cholesterol"
+59.0,28.7,,168.0,121.0,Female,No,No,Medium,Average,1,shows concerning symptoms
+80.0,21.5,135.0,149.0,148.0,Male,Yes,,Medium,Average,0,"patient smokes, high glucose"
+80.0,29.5,121.0,218.0,130.0,Female,,No,Low,Good,1,sedentary lifestyle
+62.0,33.1,109.0,260.0,137.0,Male,,Yes,High,Good,1,"family history present, elevated cholesterol"
+75.0,28.6,148.0,155.0,104.0,Male,No,No,Medium,Poor,0,"poor diet, high blood pressure"
+48.0,30.7,133.0,208.0,132.0,Female,No,No,Low,Average,1,sedentary lifestyle
+50.0,,134.0,194.0,72.0,Female,No,No,High,Average,1,shows concerning symptoms
+51.0,20.6,127.0,183.0,108.0,Female,,No,Medium,Average,0,no significant issues noted
+39.0,31.9,137.0,206.0,158.0,Male,No,Yes,Medium,Average,1,"family history present, high glucose"
+,22.1,133.0,166.0,84.0,Female,No,No,Medium,Good,0,no significant issues noted
+53.0,32.3,,,119.0,Female,No,No,High,Good,1,shows concerning symptoms

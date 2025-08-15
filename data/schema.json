@@ -1,0 +1,41 @@
+{
+  "numeric_features": [
+    "age",
+    "bmi",
+    "blood_pressure",
+    "cholesterol",
+    "glucose"
+  ],
+  "categorical_features": {
+    "gender": [
+      "Male",
+      "Female"
+    ],
+    "smoker": [
+      "Yes",
+      "No"
+    ],
+    "family_history": [
+      "Yes",
+      "No"
+    ],
+    "physical_activity": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "diet": [
+      "Poor",
+      "Average",
+      "Good"
+    ]
+  },
+  "text_features": [
+    "notes"
+  ],
+  "target": "disease",
+  "class_map": {
+    "negative": 0,
+    "positive": 1
+  }
+}

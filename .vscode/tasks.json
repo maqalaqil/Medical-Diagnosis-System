@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Setup venv",
+      "type": "shell",
+      "command": "python3 -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate Data",
+      "type": "shell",
+      "command": "source .venv/bin/activate && python scripts/generate_synthetic_data.py --rows 1000 --out data/synthetic_disease.csv",
+      "problemMatcher": []
+    },
+    {
+      "label": "Train Model",
+      "type": "shell",
+      "command": "source .venv/bin/activate && python src/train.py --data data/synthetic_disease.csv --target disease --out-dir artifacts",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run API",
+      "type": "shell",
+      "isBackground": true,
+      "command": "source .venv/bin/activate && uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run UI",
+      "type": "shell",
+      "isBackground": true,
+      "command": "source .venv/bin/activate && streamlit run src/streamlit_app.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "source .venv/bin/activate && pytest -q",
+      "problemMatcher": ["$python"]
+    },
+    {
+      "label": "Build: Data + Train",
+      "dependsOn": ["Generate Data", "Train Model"],
+      "dependsOrder": "sequence"
+    }
+  ]
+}

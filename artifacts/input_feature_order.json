@@ -1,0 +1,13 @@
+[
+  "age",
+  "bmi",
+  "blood_pressure",
+  "cholesterol",
+  "glucose",
+  "gender",
+  "smoker",
+  "family_history",
+  "physical_activity",
+  "diet",
+  "notes"
+]

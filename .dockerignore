@@ -1,0 +1,13 @@
+__pycache__
+.venv
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.eggs
+.git
+.gitignore
+artifacts/*.pkl
+artifacts/*.png
+artifacts/*.json
+logs/*

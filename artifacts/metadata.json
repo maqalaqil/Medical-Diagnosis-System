@@ -1,0 +1,81 @@
+{
+  "schema": {
+    "numeric_features": [
+      "age",
+      "bmi",
+      "blood_pressure",
+      "cholesterol",
+      "glucose"
+    ],
+    "categorical_features": [
+      "gender",
+      "smoker",
+      "family_history",
+      "physical_activity",
+      "diet"
+    ],
+    "text_features": [
+      "notes"
+    ],
+    "target": "disease",
+    "categorical_vocab": {
+      "gender": [
+        "Female",
+        "Male"
+      ],
+      "smoker": [
+        "No",
+        "Yes"
+      ],
+      "family_history": [
+        "No",
+        "Yes"
+      ],
+      "physical_activity": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "diet": [
+        "Average",
+        "Good",
+        "Poor"
+      ]
+    },
+    "numeric_ranges": {
+      "age": {
+        "min": 20.0,
+        "max": 80.0
+      },
+      "bmi": {
+        "min": 19.0,
+        "max": 35.0
+      },
+      "blood_pressure": {
+        "min": 100.0,
+        "max": 160.0
+      },
+      "cholesterol": {
+        "min": 140.0,
+        "max": 260.0
+      },
+      "glucose": {
+        "min": 60.0,
+        "max": 160.0
+      }
+    }
+  },
+  "best_model": "mlp",
+  "metrics": {
+    "accuracy": 0.885,
+    "precision": 0.8695652173913043,
+    "recall": 0.8791208791208791,
+    "f1": 0.8743169398907104,
+    "roc_auc": 0.9679403165641698,
+    "cv_accuracy": 0.91375,
+    "cv_precision": 0.9083333333333333,
+    "cv_recall": 0.9008264462809917,
+    "cv_f1": 0.9045643153526971,
+    "cv_roc_auc": 0.9686505159773311
+  }
+}
