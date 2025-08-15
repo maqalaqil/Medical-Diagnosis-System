@@ -1,4 +1,5 @@
 # Medical Diagnosis ML System
+<img width="401" height="506" alt="Screenshot 2025-08-15 at 12 45 07 PM" src="https://github.com/user-attachments/assets/0dbe88ed-f583-4e0e-acac-a88acc61daef" />
 
 An end-to-end Python machine learning application to predict a binary disease outcome (e.g., diabetes/heart disease) with:
 - Data loading/cleaning, missing value handling, categorical encoding, and scaling
